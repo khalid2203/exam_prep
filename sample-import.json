@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": "sample-001",
+      "exam": "Bihar STET",
+      "year": 2025,
+      "paper": "Class 11-12 Computer Science",
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Number Systems",
+      "type": "PYQ",
+      "question": "Example question",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Example explanation",
+      "source": "Official PYQ"
+    }
+  ]
+}

@@ -1,0 +1,1577 @@
+{
+  "id": "digital-logic-generated",
+  "exam": "Practice",
+  "year": null,
+  "title": "Digital Logic — Generated Practice Bank",
+  "durationMinutes": 60,
+  "questions": [
+    {
+      "id": "dl-gen-001",
+      "question": "What is the binary representation of decimal 13?",
+      "options": [
+        "1010",
+        "1011",
+        "1101",
+        "1110"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Number Systems",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "13 = 8+4+1, so 1101.",
+      "correctAnswer": 2,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-002",
+      "question": "What is the hexadecimal representation of binary 1111 1010?",
+      "options": [
+        "FA",
+        "AF",
+        "F0",
+        "AA"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Number Systems",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "1111 = F and 1010 = A.",
+      "correctAnswer": 0,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-003",
+      "question": "What is the octal representation of binary 101101?",
+      "options": [
+        "45",
+        "55",
+        "65",
+        "35"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Number Systems",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "Group as 101 101 = 5 5 in octal.",
+      "correctAnswer": 0,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-004",
+      "question": "Decimal 255 is equal to which hexadecimal value?",
+      "options": [
+        "EE",
+        "FF",
+        "FE",
+        "F1"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Number Systems",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "255 = 15×16+15 = FF.",
+      "correctAnswer": 1,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-005",
+      "question": "Which code represents each decimal digit separately using four binary bits?",
+      "options": [
+        "ASCII",
+        "BCD",
+        "Gray",
+        "EBCDIC"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Codes",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "BCD encodes each decimal digit independently in 4 bits.",
+      "correctAnswer": 1,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-006",
+      "question": "Which code changes only one bit between adjacent code words?",
+      "options": [
+        "BCD",
+        "ASCII",
+        "Gray code",
+        "EBCDIC"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Codes",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "Gray code has unit-distance transitions.",
+      "correctAnswer": 2,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-007",
+      "question": "ASCII is primarily a character encoding scheme. Standard ASCII uses how many bits?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Codes",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "Standard ASCII is 7-bit.",
+      "correctAnswer": 2,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-008",
+      "question": "EBCDIC was historically developed by:",
+      "options": [
+        "IBM",
+        "Intel",
+        "Bell Labs",
+        "Xerox"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Codes",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "EBCDIC is associated with IBM mainframe systems.",
+      "correctAnswer": 0,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-009",
+      "question": "The BCD representation of decimal 59 is:",
+      "options": [
+        "0101 1001",
+        "0101 1010",
+        "0110 1001",
+        "0011 1001"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Codes",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "5 = 0101 and 9 = 1001.",
+      "correctAnswer": 0,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-010",
+      "question": "Which conversion is especially useful for reducing bit changes in position encoders?",
+      "options": [
+        "Binary to Gray",
+        "Gray to ASCII",
+        "BCD to EBCDIC",
+        "Hex to BCD"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Codes",
+      "difficulty": "Medium",
+      "source": "Generated practice",
+      "explanation": "Gray coding reduces transition ambiguity.",
+      "correctAnswer": 0,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-011",
+      "question": "In an n-bit 2's-complement system, the representable signed range is:",
+      "options": [
+        "−2^n to 2^n−1",
+        "−2^(n−1) to 2^(n−1)−1",
+        "−(2^n−1) to 2^n",
+        "0 to 2^n−1"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Signed Binary",
+      "difficulty": "Medium",
+      "source": "Generated practice",
+      "explanation": "The MSB is the sign bit; range is −2^(n−1) through 2^(n−1)−1.",
+      "correctAnswer": 1,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-012",
+      "question": "The 1's complement of 10100110 is:",
+      "options": [
+        "01011001",
+        "01011010",
+        "10100111",
+        "11011001"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Signed Binary",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "Invert every bit.",
+      "correctAnswer": 0,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-013",
+      "question": "The 2's complement of 00101101 is:",
+      "options": [
+        "11010010",
+        "11010011",
+        "10110011",
+        "00101110"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Signed Binary",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "Invert to 11010010 and add 1 → 11010011.",
+      "correctAnswer": 1,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-014",
+      "question": "In 2's-complement arithmetic, overflow occurs when:",
+      "options": [
+        "Adding opposite signs",
+        "Adding same-sign operands gives an opposite-sign result",
+        "Subtracting zero",
+        "The carry is always one"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Binary Arithmetic",
+      "difficulty": "Medium",
+      "source": "Generated practice",
+      "explanation": "Overflow occurs when two same-sign operands produce a result with the opposite sign.",
+      "correctAnswer": 1,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-015",
+      "question": "What is 1011₂ + 0101₂?",
+      "options": [
+        "1110",
+        "10000",
+        "10000₂",
+        "1100"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Binary Arithmetic",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "11 + 5 = 16 = 10000₂.",
+      "correctAnswer": 2,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-016",
+      "question": "What is 1101₂ − 0110₂?",
+      "options": [
+        "0111",
+        "0101",
+        "1001",
+        "0011"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Binary Arithmetic",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "13 − 6 = 7 = 0111₂.",
+      "correctAnswer": 0,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-017",
+      "question": "Which representation has both +0 and −0?",
+      "options": [
+        "2's complement",
+        "1's complement",
+        "Unsigned binary",
+        "Gray code"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Signed Binary",
+      "difficulty": "Medium",
+      "source": "Generated practice",
+      "explanation": "1's complement has two zero representations.",
+      "correctAnswer": 1,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-018",
+      "question": "Which gate is functionally complete and can implement NOT, AND and OR?",
+      "options": [
+        "XOR",
+        "NAND",
+        "Buffer",
+        "XOR only"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Boolean Algebra & Gates",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "NAND is a universal gate.",
+      "correctAnswer": 1,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-019",
+      "question": "Which pair of gates is also functionally complete?",
+      "options": [
+        "AND and OR",
+        "XOR and XNOR",
+        "NAND and NOR",
+        "NOT and XOR"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Boolean Algebra & Gates",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "Either NAND alone or NOR alone is universal.",
+      "correctAnswer": 2,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-020",
+      "question": "According to Boolean algebra, X + X·Y simplifies to:",
+      "options": [
+        "X",
+        "Y",
+        "X+Y",
+        "XY"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Boolean Algebra & Gates",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "Absorption law: X + XY = X.",
+      "correctAnswer": 0,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-021",
+      "question": "The expression X·(X+Y) simplifies to:",
+      "options": [
+        "Y",
+        "X",
+        "XY",
+        "X+Y"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Boolean Algebra & Gates",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "Absorption law: X(X+Y)=X.",
+      "correctAnswer": 1,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-022",
+      "question": "The complement of X+Y is:",
+      "options": [
+        "X' + Y'",
+        "X'Y'",
+        "XY",
+        "X+Y"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Boolean Algebra & Gates",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "De Morgan: (X+Y)'=X'Y'.",
+      "correctAnswer": 1,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-023",
+      "question": "The complement of XY is:",
+      "options": [
+        "X'Y'",
+        "X'+Y'",
+        "XY'",
+        "X+Y"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Boolean Algebra & Gates",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "De Morgan: (XY)'=X'+Y'.",
+      "correctAnswer": 1,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-024",
+      "question": "For an OR gate, the output is 0 only when:",
+      "options": [
+        "All inputs are 0",
+        "All inputs are 1",
+        "Exactly one input is 1",
+        "Inputs differ"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Logic Gates",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "OR is 0 only for all-zero input.",
+      "correctAnswer": 0,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-025",
+      "question": "For an AND gate, the output is 1 only when:",
+      "options": [
+        "Any input is 1",
+        "All inputs are 1",
+        "All inputs are 0",
+        "Inputs differ"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Logic Gates",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "AND requires every input to be 1.",
+      "correctAnswer": 1,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-026",
+      "question": "An XOR gate with inputs 0 and 1 produces:",
+      "options": [
+        "0",
+        "1",
+        "X",
+        "Undefined"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Logic Gates",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "XOR is 1 when inputs differ.",
+      "correctAnswer": 1,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-027",
+      "question": "An XNOR gate produces 1 when:",
+      "options": [
+        "Inputs differ",
+        "Inputs are equal",
+        "All inputs are zero only",
+        "Any input is one"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Logic Gates",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "XNOR is the equality detector.",
+      "correctAnswer": 1,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-028",
+      "question": "For n input variables, a complete truth table contains:",
+      "options": [
+        "n rows",
+        "2n rows",
+        "2^n rows",
+        "n^2 rows"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Truth Tables",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "Each variable has two possible values.",
+      "correctAnswer": 2,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-029",
+      "question": "Which expression is in canonical SOP form?",
+      "options": [
+        "Product of sums",
+        "Sum of minterms",
+        "Sum of maxterms",
+        "Difference of products"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "SOP/POS",
+      "difficulty": "Medium",
+      "source": "Generated practice",
+      "explanation": "Canonical SOP is the sum of minterms.",
+      "correctAnswer": 1,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-030",
+      "question": "Which expression is in canonical POS form?",
+      "options": [
+        "Sum of minterms",
+        "Product of maxterms",
+        "Product of minterms",
+        "Sum of products"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "SOP/POS",
+      "difficulty": "Medium",
+      "source": "Generated practice",
+      "explanation": "Canonical POS is the product of maxterms.",
+      "correctAnswer": 1,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-031",
+      "question": "A 4-variable Karnaugh map contains how many cells?",
+      "options": [
+        "4",
+        "8",
+        "16",
+        "32"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "K-map",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "A 4-variable map has 2^4 = 16 cells.",
+      "correctAnswer": 2,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-032",
+      "question": "In a K-map, adjacent groups should normally contain a number of cells that is:",
+      "options": [
+        "Any prime number",
+        "A power of two",
+        "Always odd",
+        "Always four"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "K-map",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "Valid groups contain 1,2,4,8,... cells.",
+      "correctAnswer": 1,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-033",
+      "question": "In a K-map, groups may wrap around the:",
+      "options": [
+        "Diagonal only",
+        "Edges",
+        "Center only",
+        "Neither edge nor corner"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "K-map",
+      "difficulty": "Medium",
+      "source": "Generated practice",
+      "explanation": "The map's left/right and top/bottom edges are adjacent.",
+      "correctAnswer": 1,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-034",
+      "question": "For POS minimization, K-maps are commonly grouped using:",
+      "options": [
+        "1s only",
+        "0s",
+        "Only don't-cares",
+        "Random cells"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "K-map",
+      "difficulty": "Medium",
+      "source": "Generated practice",
+      "explanation": "POS simplification groups zero cells.",
+      "correctAnswer": 1,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-035",
+      "question": "A don't-care condition in a K-map may be treated as:",
+      "options": [
+        "Only 0",
+        "Only 1",
+        "0 or 1, as useful for simplification",
+        "Always deleted"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "K-map",
+      "difficulty": "Medium",
+      "source": "Generated practice",
+      "explanation": "X cells can be used as either value if beneficial.",
+      "correctAnswer": 2,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-036",
+      "question": "A half adder has which two outputs?",
+      "options": [
+        "Sum and Carry",
+        "Difference and Borrow",
+        "Carry and Borrow",
+        "Sum and Difference"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Adders & Subtractors",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "Half adder adds two bits: Sum and Carry.",
+      "correctAnswer": 0,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-037",
+      "question": "The sum output of a half adder is implemented by:",
+      "options": [
+        "AND",
+        "OR",
+        "XOR",
+        "NOR"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Adders & Subtractors",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "Sum = A XOR B.",
+      "correctAnswer": 2,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-038",
+      "question": "The carry output of a half adder is:",
+      "options": [
+        "A+B",
+        "A XOR B",
+        "AB",
+        "A'B"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Adders & Subtractors",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "Carry = AB.",
+      "correctAnswer": 2,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-039",
+      "question": "A full adder adds:",
+      "options": [
+        "One bit only",
+        "Two bits only",
+        "Three one-bit inputs including carry-in",
+        "Four bits"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Adders & Subtractors",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "Inputs are A, B and Cin.",
+      "correctAnswer": 2,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-040",
+      "question": "A full adder can be constructed using:",
+      "options": [
+        "Two half adders and an OR gate",
+        "Two OR gates only",
+        "One decoder only",
+        "One comparator only"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Adders & Subtractors",
+      "difficulty": "Medium",
+      "source": "Generated practice",
+      "explanation": "Two half adders plus OR combine the carries.",
+      "correctAnswer": 0,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-041",
+      "question": "A half subtractor produces:",
+      "options": [
+        "Sum and Carry",
+        "Difference and Borrow",
+        "Carry only",
+        "Borrow only"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Adders & Subtractors",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "Outputs are Difference and Borrow.",
+      "correctAnswer": 1,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-042",
+      "question": "A 4-bit ripple-carry adder has carry propagation from:",
+      "options": [
+        "MSB to LSB only",
+        "LSB toward MSB",
+        "Random stages",
+        "Output to input"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Adders & Subtractors",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "Carry ripples from the least significant stage upward.",
+      "correctAnswer": 1,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-043",
+      "question": "A comparator is used to determine:",
+      "options": [
+        "Only parity",
+        "Relative magnitude/equality of binary numbers",
+        "Memory address",
+        "Clock frequency"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Comparators",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "It indicates A>B, A=B and/or A<B.",
+      "correctAnswer": 1,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-044",
+      "question": "How many select lines are required for an 8-to-1 multiplexer?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "8"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Multiplexers & Demultiplexers",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "2^3 = 8.",
+      "correctAnswer": 1,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-045",
+      "question": "A 16-to-1 multiplexer requires how many select lines?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "16"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Multiplexers & Demultiplexers",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "2^4 = 16.",
+      "correctAnswer": 2,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-046",
+      "question": "A demultiplexer routes:",
+      "options": [
+        "Many inputs to one output",
+        "One input to one of many outputs",
+        "Only clocks",
+        "Only parity bits"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Multiplexers & Demultiplexers",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "A DEMUX distributes one input among multiple outputs.",
+      "correctAnswer": 1,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-047",
+      "question": "An encoder generally converts:",
+      "options": [
+        "n inputs to 2^n outputs",
+        "2^n inputs to n outputs",
+        "Analog to digital",
+        "Digital to analog"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Encoders & Decoders",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "An n-bit encoder has 2^n possible input lines.",
+      "correctAnswer": 1,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-048",
+      "question": "A 3-to-8 decoder has:",
+      "options": [
+        "3 inputs and 8 outputs",
+        "8 inputs and 3 outputs",
+        "3 inputs and 3 outputs",
+        "8 inputs and 8 outputs"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Encoders & Decoders",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "A decoder expands n inputs to 2^n outputs.",
+      "correctAnswer": 0,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-049",
+      "question": "A parity generator is primarily used for:",
+      "options": [
+        "Error detection",
+        "Data compression",
+        "Address translation",
+        "Clock generation"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Parity",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "Parity provides a simple error-detection mechanism.",
+      "correctAnswer": 0,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-050",
+      "question": "Which memory is normally non-volatile?",
+      "options": [
+        "RAM",
+        "ROM",
+        "Cache",
+        "Register"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Memory & PLDs",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "ROM retains contents without power.",
+      "correctAnswer": 1,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-051",
+      "question": "EPROM can be erased using:",
+      "options": [
+        "Electrical pulses only",
+        "Ultraviolet light",
+        "Magnetic field",
+        "Heat only"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Memory & PLDs",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "EPROM uses UV light for erasure.",
+      "correctAnswer": 1,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-052",
+      "question": "EEPROM can be erased:",
+      "options": [
+        "Only with UV light",
+        "Electrically",
+        "Only mechanically",
+        "Never"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Memory & PLDs",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "EEPROM = electrically erasable programmable ROM.",
+      "correctAnswer": 1,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-053",
+      "question": "A PLA contains programmable:",
+      "options": [
+        "Only memory cells",
+        "AND and OR arrays",
+        "Only OR gates",
+        "Only multiplexers"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Memory & PLDs",
+      "difficulty": "Medium",
+      "source": "Generated practice",
+      "explanation": "PLA has programmable AND and OR planes.",
+      "correctAnswer": 1,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-054",
+      "question": "ROM can implement a combinational circuit by using:",
+      "options": [
+        "Address inputs and stored output words",
+        "Only flip-flops",
+        "Only counters",
+        "Only analog amplifiers"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Memory & PLDs",
+      "difficulty": "Medium",
+      "source": "Generated practice",
+      "explanation": "Input combinations address stored output values.",
+      "correctAnswer": 0,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-055",
+      "question": "An SR flip-flop has which basic control inputs?",
+      "options": [
+        "Set and Reset",
+        "Sum and Reset",
+        "Select and Register",
+        "Shift and Reset only"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Flip-Flops",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "S and R control set/reset behavior.",
+      "correctAnswer": 0,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-056",
+      "question": "Which flip-flop is commonly used to eliminate the invalid SR condition by using complementary inputs?",
+      "options": [
+        "D flip-flop",
+        "T flip-flop",
+        "JK flip-flop",
+        "Latch only"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Flip-Flops",
+      "difficulty": "Medium",
+      "source": "Generated practice",
+      "explanation": "JK modifies the SR concept and supports toggle operation.",
+      "correctAnswer": 2,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-057",
+      "question": "For a JK flip-flop, J=K=1 causes:",
+      "options": [
+        "No change",
+        "Reset",
+        "Set",
+        "Toggle"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Flip-Flops",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "JK with both inputs high toggles the state.",
+      "correctAnswer": 3,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-058",
+      "question": "For a D flip-flop, the next state is generally:",
+      "options": [
+        "Always 0",
+        "Equal to D",
+        "Complement of D",
+        "Equal to clock"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Flip-Flops",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "Q(next)=D at the active clock edge.",
+      "correctAnswer": 1,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-059",
+      "question": "A T flip-flop toggles when:",
+      "options": [
+        "T=0",
+        "T=1",
+        "Clock=0 only",
+        "Reset=1 only"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Flip-Flops",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "T=1 causes state inversion.",
+      "correctAnswer": 1,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-060",
+      "question": "A register is essentially a group of:",
+      "options": [
+        "Logic gates only",
+        "Flip-flops",
+        "Multiplexers only",
+        "Decoders only"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Registers",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "Each flip-flop stores one bit.",
+      "correctAnswer": 1,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-061",
+      "question": "A shift register is used to:",
+      "options": [
+        "Shift stored bits between stages",
+        "Only add numbers",
+        "Only decode addresses",
+        "Generate analog voltage"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Registers",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "Clock pulses move data between register stages.",
+      "correctAnswer": 0,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-062",
+      "question": "A binary counter is a sequential circuit used to:",
+      "options": [
+        "Store only one bit",
+        "Count clock events",
+        "Convert analog signals only",
+        "Compare strings"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Counters",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "Counters advance through a sequence on clock events.",
+      "correctAnswer": 1,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-063",
+      "question": "A MOD-10 counter has how many distinct states?",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "16"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Counters",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "MOD-N has N distinct states.",
+      "correctAnswer": 2,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-064",
+      "question": "An irregular counter is one that:",
+      "options": [
+        "Uses no flip-flops",
+        "Does not follow the complete natural binary sequence",
+        "Always counts only to 2",
+        "Is purely combinational"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Counters",
+      "difficulty": "Medium",
+      "source": "Generated practice",
+      "explanation": "Irregular counters use a selected/non-natural state sequence.",
+      "correctAnswer": 1,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-065",
+      "question": "A state-transition diagram represents:",
+      "options": [
+        "Only input voltage levels",
+        "States and transitions between them",
+        "Only truth-table headings",
+        "Memory addresses only"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "State Machines",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "It graphically describes state changes.",
+      "correctAnswer": 1,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-066",
+      "question": "An ADC converts:",
+      "options": [
+        "Digital data to analog",
+        "Analog signal to digital data",
+        "Binary to Gray only",
+        "Frequency to voltage only"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "ADC/DAC",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "ADC = analog-to-digital converter.",
+      "correctAnswer": 1,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-067",
+      "question": "A DAC converts:",
+      "options": [
+        "Analog to digital",
+        "Digital to analog",
+        "Binary to octal",
+        "Gray to BCD"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "ADC/DAC",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "DAC = digital-to-analog converter.",
+      "correctAnswer": 1,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-068",
+      "question": "Increasing ADC resolution generally provides:",
+      "options": [
+        "Fewer quantization levels",
+        "More quantization levels",
+        "No output",
+        "Only lower speed"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "ADC/DAC",
+      "difficulty": "Medium",
+      "source": "Generated practice",
+      "explanation": "More bits mean more distinct quantization levels.",
+      "correctAnswer": 1,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-069",
+      "question": "Which logic family is known for very high switching speed and low voltage swing?",
+      "options": [
+        "ECL",
+        "CMOS",
+        "TTL",
+        "MOS only"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Logic Families",
+      "difficulty": "Medium",
+      "source": "Generated practice",
+      "explanation": "ECL avoids transistor saturation and is very fast.",
+      "correctAnswer": 0,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-070",
+      "question": "CMOS circuits are especially known for:",
+      "options": [
+        "Very high static power consumption",
+        "Low static power consumption",
+        "No noise margin",
+        "No transistors"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Logic Families",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "CMOS has very low static power in steady state.",
+      "correctAnswer": 1,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-071",
+      "question": "TTL traditionally uses:",
+      "options": [
+        "Bipolar junction transistors",
+        "Only MOSFETs",
+        "Only relays",
+        "Vacuum tubes"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Logic Families",
+      "difficulty": "Medium",
+      "source": "Generated practice",
+      "explanation": "TTL = transistor-transistor logic, historically bipolar.",
+      "correctAnswer": 0,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-072",
+      "question": "Noise margin is a measure of a digital circuit's ability to:",
+      "options": [
+        "Store more bits",
+        "Tolerate unwanted noise without logic errors",
+        "Increase clock frequency automatically",
+        "Convert analog to digital"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Logic Families",
+      "difficulty": "Medium",
+      "source": "Generated practice",
+      "explanation": "Noise margin indicates tolerated noise voltage.",
+      "correctAnswer": 1,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-073",
+      "question": "If F(A,B)=A XOR B, F is 1 for which input pairs?",
+      "options": [
+        "00 and 11",
+        "00 and 01",
+        "01 and 10",
+        "10 and 11"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Boolean Algebra & Gates",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "XOR is 1 when inputs differ.",
+      "correctAnswer": 2,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-074",
+      "question": "Which gate gives the complement of an AND operation?",
+      "options": [
+        "NOR",
+        "NAND",
+        "XNOR",
+        "XOR"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Logic Gates",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "NAND = (AB)'.",
+      "correctAnswer": 1,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-075",
+      "question": "Which gate gives the complement of an OR operation?",
+      "options": [
+        "NOR",
+        "NAND",
+        "XOR",
+        "AND"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Logic Gates",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "NOR = (A+B)'.",
+      "correctAnswer": 0,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-076",
+      "question": "A 2-to-4 decoder has how many output lines?",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Encoders & Decoders",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "2^2 = 4.",
+      "correctAnswer": 1,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-077",
+      "question": "A 4-bit binary number can represent how many unsigned values?",
+      "options": [
+        "4",
+        "8",
+        "16",
+        "32"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Number Systems",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "There are 2^4 = 16 combinations.",
+      "correctAnswer": 2,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-078",
+      "question": "In a synchronous counter, flip-flops are triggered by:",
+      "options": [
+        "Separate unrelated clocks",
+        "A common clock",
+        "No clock",
+        "Only output carry"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Counters",
+      "difficulty": "Medium",
+      "source": "Generated practice",
+      "explanation": "Synchronous stages share the clock.",
+      "correctAnswer": 1,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-079",
+      "question": "In an asynchronous (ripple) counter, state changes:",
+      "options": [
+        "Reach all flip-flops simultaneously",
+        "Propagate from one stage to the next",
+        "Require no flip-flops",
+        "Are purely combinational"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Counters",
+      "difficulty": "Medium",
+      "source": "Generated practice",
+      "explanation": "Each stage is triggered by a preceding stage.",
+      "correctAnswer": 1,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-080",
+      "question": "Which circuit selects one of many inputs and connects it to a single output?",
+      "options": [
+        "Decoder",
+        "Multiplexer",
+        "Encoder",
+        "Demultiplexer"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Multiplexers & Demultiplexers",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "A MUX selects one input.",
+      "correctAnswer": 1,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-081",
+      "question": "Which circuit takes one input and distributes it to one selected output?",
+      "options": [
+        "Multiplexer",
+        "Demultiplexer",
+        "Encoder",
+        "Comparator"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Multiplexers & Demultiplexers",
+      "difficulty": "Easy",
+      "source": "Generated practice",
+      "explanation": "A DEMUX routes one input.",
+      "correctAnswer": 1,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    },
+    {
+      "id": "dl-gen-082",
+      "question": "The main difference between combinational and sequential circuits is that sequential circuits:",
+      "options": [
+        "Have no inputs",
+        "Depend on previous state as well as current inputs",
+        "Cannot use gates",
+        "Never use clocks"
+      ],
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "Circuit Design",
+      "difficulty": "Medium",
+      "source": "Generated practice",
+      "explanation": "Sequential circuits have memory/state.",
+      "correctAnswer": 1,
+      "type": "GENERATED",
+      "answerSource": "generated"
+    }
+  ],
+  "syllabus": [
+    "Data and number systems: binary, octal, hexadecimal, BCD, ASCII, EBCDIC, Gray code",
+    "1's and 2's complements; binary arithmetic",
+    "Venn diagrams; Boolean algebra; gates; truth tables; SOP/POS; algebraic and K-map minimization",
+    "Combinational circuits: adders, subtractors, encoder, decoder, comparator, MUX, DEMUX, parity",
+    "Memory: RAM, ROM, EPROM, EEPROM/EEROM; ROM-based combinational design; PLDs/PLAs",
+    "Sequential circuits: SR, JK, D, T; registers; counters; irregular counters; state tables/diagrams/design",
+    "ADC/DAC; TTL, ECL, MOS, CMOS logic families"
+  ],
+  "version": "2.0"
+}

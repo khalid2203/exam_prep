@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "files": [
+    "papers/bpsc-tre3-2024-cs-22-jul.json",
+    "papers/stet-2025-shift-1.json",
+    "papers/stet-2025-shift-2.json",
+    "generated/digital-logic.json"
+  ]
+}

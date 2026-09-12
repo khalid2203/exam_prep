@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#111827">
+<title>ExamForge — PYQ Mock Platform</title>
+<style>
+:root{--bg:#f6f7fb;--card:#fff;--text:#111827;--muted:#6b7280;--line:#e5e7eb;--accent:#2563eb;--accent2:#1d4ed8;--danger:#dc2626;--ok:#059669;--warn:#d97706}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--text)}
+button,input,select{font:inherit}button{cursor:pointer;border:0}.app{min-height:100vh}.top{height:64px;background:#111827;color:white;display:flex;align-items:center;justify-content:space-between;padding:0 18px;position:sticky;top:0;z-index:20}.brand{font-weight:800;font-size:20px}.brand span{color:#60a5fa}.top-actions{display:flex;gap:8px}.top button{background:#1f2937;color:#fff;padding:9px 12px;border-radius:8px}.layout{display:flex;min-height:calc(100vh - 64px)}.side{width:240px;background:#fff;border-right:1px solid var(--line);padding:14px;position:sticky;top:64px;height:calc(100vh - 64px)}.navbtn{display:block;width:100%;text-align:left;padding:11px 12px;background:transparent;border-radius:8px;margin:3px 0;color:#374151}.navbtn.active,.navbtn:hover{background:#eff6ff;color:#1d4ed8;font-weight:650}.main{flex:1;padding:22px;max-width:1400px;margin:auto;width:100%}.view{display:none}.view.active{display:block}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:15px}.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px;box-shadow:0 1px 2px #00000008}.stat{font-size:28px;font-weight:800;margin:5px 0}.muted{color:var(--muted)}.h{font-size:25px;font-weight:800;margin:0 0 6px}.sub{color:var(--muted);margin-bottom:18px}.btn{padding:10px 14px;border-radius:8px;background:#e5e7eb;color:#111827;font-weight:650}.btn.primary{background:var(--accent);color:#fff}.btn.danger{background:#fee2e2;color:#991b1b}.btn.ghost{background:#fff;border:1px solid var(--line)}.row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}.field{display:flex;flex-direction:column;gap:6px;min-width:180px;flex:1}.field label{font-size:13px;color:#4b5563;font-weight:650}.field input,.field select{padding:10px;border:1px solid #d1d5db;border-radius:8px;background:#fff}.toolbar{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:15px}.list{display:flex;flex-direction:column;gap:9px}.item{border:1px solid var(--line);border-radius:9px;padding:12px;background:#fff}.tag{display:inline-block;font-size:11px;border-radius:999px;padding:4px 8px;background:#eef2ff;color:#3730a3;margin:2px}.empty{text-align:center;padding:35px;color:var(--muted)}.modal{position:fixed;inset:0;background:#0008;display:none;align-items:center;justify-content:center;padding:18px;z-index:50}.modal.show{display:flex}.modalbox{background:#fff;border-radius:14px;max-width:900px;width:100%;max-height:90vh;overflow:auto;padding:20px}.mock-head{display:flex;justify-content:space-between;gap:12px;align-items:center;background:#fff;border-bottom:1px solid var(--line);padding:12px;position:sticky;top:0;z-index:5}.timer{font-weight:800;color:#b91c1c}.qwrap{display:grid;grid-template-columns:1fr 310px;gap:16px}.qcard{background:#fff;border:1px solid var(--line);border-radius:12px;padding:20px}.qtext{font-size:18px;line-height:1.55;font-weight:650;white-space:pre-wrap}.option{display:flex;gap:10px;padding:12px;margin:9px 0;border:1px solid #d1d5db;border-radius:9px;align-items:flex-start}.option.selected{border-color:var(--accent);background:#eff6ff}.option input{margin-top:4px}.palette{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px;height:max-content;position:sticky;top:90px}.nums{display:grid;grid-template-columns:repeat(5,1fr);gap:7px}.num{padding:8px;border-radius:7px;background:#f3f4f6}.num.answered{background:#dcfce7}.num.review{background:#fef3c7}.num.current{outline:2px solid var(--accent)}.results{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.resultbig{font-size:30px;font-weight:800}.bar{height:9px;background:#e5e7eb;border-radius:20px;overflow:hidden}.bar>i{display:block;height:100%;background:#2563eb}.notice{padding:11px;border-radius:9px;background:#eff6ff;color:#1e40af;margin:10px 0}.warning{background:#fff7ed;color:#9a3412}.mobile-menu{display:none}
+@media(max-width:850px){.side{display:none}.mobile-menu{display:block}.main{padding:14px}.qwrap{grid-template-columns:1fr}.palette{position:static}.results{grid-template-columns:repeat(2,1fr)}.top{padding:0 10px}}
+</style>
+</head>
+<body>
+<div class="app">
+<header class="top"><div class="brand">Exam<span>Forge</span></div><div class="top-actions"><button class="mobile-menu" onclick="toggleSide()">☰</button><button onclick="exportBackup()">Export Backup</button></div></header>
+<div class="layout">
+<aside class="side" id="side">
+<button class="navbtn active" data-view="dashboard">🏠 Dashboard</button>
+<button class="navbtn" data-view="mocks">📝 Mock Tests</button>
+<button class="navbtn" data-view="bank">📚 Question Bank</button>
+<button class="navbtn" data-view="import">📥 Import JSON</button>
+<button class="navbtn" data-view="results">📊 Results</button>
+<button class="navbtn" data-view="settings">⚙️ Settings</button>
+</aside>
+<main class="main">
+<section id="dashboard" class="view active"></section>
+<section id="mocks" class="view"></section>
+<section id="bank" class="view"></section>
+<section id="import" class="view"></section>
+<section id="results" class="view"></section>
+<section id="settings" class="view"></section>
+</main>
+</div>
+</div>
+<div class="modal" id="modal"><div class="modalbox" id="modalbox"></div></div>
+<script>
+const DBNAME='examforge-db', STORE='questions', ATT='attempts', META='meta';
+let db, questions=[], attempts=[], currentMock=null;
+
+function openDB(){return new Promise((res,rej)=>{const r=indexedDB.open(DBNAME,1);r.onupgradeneeded=()=>{const d=r.result;if(!d.objectStoreNames.contains(STORE))d.createObjectStore(STORE,{keyPath:'id'});if(!d.objectStoreNames.contains(ATT))d.createObjectStore(ATT,{keyPath:'id'});if(!d.objectStoreNames.contains(META))d.createObjectStore(META,{keyPath:'key'})};r.onsuccess=()=>{db=r.result;res()};r.onerror=()=>rej(r.error)})}
+function tx(store,mode='readonly'){return db.transaction(store,mode).objectStore(store)}
+function all(store){return new Promise((res,rej)=>{let r=tx(store).getAll();r.onsuccess=()=>res(r.result||[]);r.onerror=()=>rej(r.error)})}
+function put(store,obj){return new Promise((res,rej)=>{let r=tx(store,'readwrite').put(obj);r.onsuccess=()=>res();r.onerror=()=>rej(r.error)})}
+function del(store,id){return new Promise((res,rej)=>{let r=tx(store,'readwrite').delete(id);r.onsuccess=()=>res();r.onerror=()=>rej(r.error)})}
+function esc(s){return String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]))}
+function norm(s){return String(s||'').toLowerCase().replace(/\s+/g,' ').trim()}
+function tags(q){return `<span class="tag">${esc(q.exam||'Practice')}</span><span class="tag">${esc(q.subject||'')}</span><span class="tag">${esc(q.chapter||'')}</span><span class="tag">${esc(q.topic||'')}</span><span class="tag">${esc(q.type||'PYQ')}</span>`}
+function navigate(v){document.querySelectorAll('.view').forEach(x=>x.classList.remove('active'));document.getElementById(v).classList.add('active');document.querySelectorAll('.navbtn').forEach(b=>b.classList.toggle('active',b.dataset.view===v));render(v)}
+document.querySelectorAll('.navbtn').forEach(b=>b.onclick=()=>navigate(b.dataset.view));
+function toggleSide(){document.getElementById('side').style.display=document.getElementById('side').style.display==='block'?'none':'block'}
+
+async function render(v){
+ if(v==='dashboard') renderDashboard();
+ if(v==='mocks') renderMocks();
+ if(v==='bank') renderBank();
+ if(v==='import') renderImport();
+ if(v==='results') renderResults();
+ if(v==='settings') renderSettings();
+}
+function renderDashboard(){
+ const pyq=questions.filter(q=>(q.type||'PYQ').toUpperCase()==='PYQ').length, gen=questions.length-pyq;
+ document.getElementById('dashboard').innerHTML=`<h1 class="h">Exam Dashboard</h1><div class="sub">Your personal CBT-style PYQ and practice platform.</div>
+ <div class="grid"><div class="card"><div class="muted">Total Questions</div><div class="stat">${questions.length}</div></div><div class="card"><div class="muted">Actual PYQs</div><div class="stat">${pyq}</div></div><div class="card"><div class="muted">Generated</div><div class="stat">${gen}</div></div><div class="card"><div class="muted">Attempts</div><div class="stat">${attempts.length}</div></div></div>
+ <div class="card" style="margin-top:15px"><h2>Quick Start</h2><div class="row"><button class="btn primary" onclick="navigate('mocks')">Create Mock Test</button><button class="btn" onclick="navigate('import')">Import JSON</button><button class="btn" onclick="navigate('bank')">Browse Question Bank</button>${syncButton()}</div><p class="muted" style="margin-top:10px">JSON files committed to your GitHub Pages repository are the repository question bank. Use Sync after pushing new or corrected JSON files.</p></div>
+ <div class="card" style="margin-top:15px"><h2>How your workflow works</h2><p>Give your PDFs to ChatGPT to convert into clean, verified JSON. Import that JSON here. The app stores questions locally in IndexedDB and lets you build full-paper, chapter, topic, PYQ-only, generated-only and mixed tests.</p></div>`;
+}
+function distinct(field){return [...new Set(questions.map(q=>q[field]).filter(Boolean))].sort()}
+function paperKey(q){return q.paper ? `${q.exam||'Practice'} — ${q.paper}` : `${q.exam||'Practice'} — ${q.subject||'General Practice'}`}
+function distinctPapers(){return [...new Set(questions.map(paperKey))].sort()}
+function select(id,vals,allLabel='All'){return `<select id="${id}"><option value="">${allLabel}</option>${vals.map(v=>`<option>${esc(v)}</option>`).join('')}</select>`}
+function renderMocks(){
+ document.getElementById('mocks').innerHTML=`<div class="row" style="justify-content:space-between"><div><h1 class="h">Create Mock Test</h1><div class="sub">Select an exam paper for a full-paper simulation, or leave it blank to build a custom topic/chapter test.</div></div>${syncButton()}</div>
+ <div class="card"><div class="field" style="max-width:720px"><label>Exam / Paper</label>${select('mf_paper',distinctPapers(),'All exams / custom test')}</div>
+ <div id="customFilters" style="margin-top:14px"><div class="row">
+ <div class="field"><label>Exam</label>${select('mf_exam',distinct('exam'))}</div>
+ <div class="field"><label>Subject</label>${select('mf_subject',distinct('subject'))}</div>
+ <div class="field"><label>Chapter</label>${select('mf_chapter',distinct('chapter'))}</div>
+ <div class="field"><label>Topic</label>${select('mf_topic',distinct('topic'))}</div>
+ </div><div class="row" style="margin-top:12px">
+ <div class="field"><label>Source</label><select id="mf_type"><option value="">PYQ + Generated</option><option value="PYQ">PYQ Only</option><option value="GENERATED">Generated Only</option></select></div>
+ <div class="field"><label>Questions</label><input id="mf_count" type="number" min="1" value="20"></div>
+ <div class="field"><label>Time (minutes)</label><input id="mf_time" type="number" min="1" value="20"></div>
+ <div class="field"><label>Mode</label><select id="mf_mode"><option value="random">Random</option><option value="ordered">Question-bank order</option></select></div>
+ </div></div>
+ <div id="paperInfo" class="notice" style="margin-top:15px"></div><button class="btn primary" onclick="startMock()">Start Mock</button></div>`;
+ ['mf_paper','mf_exam','mf_subject','mf_chapter','mf_topic','mf_type','mf_count','mf_time','mf_mode'].forEach(id=>document.getElementById(id).addEventListener('change',updateMockInfo));
+ updateMockInfo();
+}
+function selectedPaper(){return document.getElementById('mf_paper')?.value||''}
+function filteredMock(){
+ const paper=selectedPaper();
+ if(paper) return questions.filter(q=>paperKey(q)===paper);
+ const get=id=>document.getElementById(id)?.value||'';
+ return questions.filter(q=>(!get('mf_exam')||q.exam===get('mf_exam'))&&(!get('mf_subject')||q.subject===get('mf_subject'))&&(!get('mf_chapter')||q.chapter===get('mf_chapter'))&&(!get('mf_topic')||q.topic===get('mf_topic'))&&(!get('mf_type')||String(q.type||'PYQ').toUpperCase()===get('mf_type')));
+}
+function updateMockInfo(){
+ if(!document.getElementById('paperInfo'))return;
+ const paper=selectedPaper();
+ const pool=filteredMock();
+ const scoreable=pool.filter(q=>q.correctAnswer!==null&&q.correctAnswer!==undefined).length;
+ const custom=document.getElementById('customFilters');
+ if(custom) custom.style.display=paper?'none':'block';
+ if(paper){
+   const sample=pool[0]||{};
+   document.getElementById('paperInfo').innerHTML=`<b>Full paper mode:</b> ${pool.length} questions in this paper. All scoreable questions will be included automatically. Time: ${sample.exam==='Bihar BPSC TRE 3.0'?150:150} minutes.`;
+ }else{
+   document.getElementById('paperInfo').innerHTML=`<b>${scoreable}</b> scoreable questions match the current custom filters. Select an exam/paper above to run the complete paper.`;
+ }
+}
+function startMock(){
+ const fullPaper=!!selectedPaper();
+ let pool=filteredMock().filter(q=>q.correctAnswer!==null&&q.correctAnswer!==undefined);
+ if(!pool.length)return alert('No scoreable questions match this selection.');
+ let count;
+ let minutes;
+ if(fullPaper){
+   count=pool.length;
+   minutes=150;
+ }else{
+   count=Math.min(Math.max(1,+document.getElementById('mf_count').value||20),pool.length);
+   minutes=(+document.getElementById('mf_time').value||20);
+   if(document.getElementById('mf_mode').value==='random')pool.sort(()=>Math.random()-.5);
+   pool=pool.slice(0,count);
+ }
+ currentMock={questions:pool,index:0,answers:Array(count).fill(null),review:Array(count).fill(false),seconds:minutes*60,start:Date.now(),fullPaper};
+ renderMockScreen();
+}
+function renderMockScreen(){
+ const m=currentMock,q=m.questions[m.index],total=m.questions.length;
+ document.getElementById('modalbox').innerHTML=`<div class="mock-head"><b>${esc(q.exam||'Practice')} • ${esc(q.chapter||'')}</b><span class="timer" id="timer"></span><button class="btn danger" onclick="submitMock()">Submit</button></div>
+ <div class="qwrap" style="padding-top:15px"><div class="qcard"><div class="muted">Question ${m.index+1} of ${total} • ${esc(q.topic||'')}</div><div class="qtext" style="margin:14px 0">${esc(q.question)}</div>
+ ${q.options.map((o,i)=>`<label class="option ${m.answers[m.index]===i?'selected':''}"><input type="radio" name="opt" ${m.answers[m.index]===i?'checked':''} onchange="choose(${i})"><span><b>${String.fromCharCode(65+i)}.</b> ${esc(o)}</span></label>`).join('')}
+ <div class="row" style="margin-top:15px"><button class="btn" onclick="prevQ()">Previous</button><button class="btn" onclick="toggleReview()">Mark for Review</button><button class="btn primary" onclick="nextQ()">${m.index===total-1?'Finish':'Next'}</button></div></div>
+ <div class="palette"><b>Question Palette</b><p class="muted">Green = answered, yellow = review</p><div class="nums">${m.questions.map((_,i)=>`<button class="num ${m.answers[i]!==null?'answered':''} ${m.review[i]?'review':''} ${i===m.index?'current':''}" onclick="gotoQ(${i})">${i+1}</button>`).join('')}</div></div></div>`;
+ document.getElementById('modal').classList.add('show');tick();
+}
+let timerInt;
+function tick(){clearInterval(timerInt);updateTimer();timerInt=setInterval(updateTimer,1000)}
+function updateTimer(){if(!currentMock)return;currentMock.seconds--;let s=Math.max(0,currentMock.seconds);let el=document.getElementById('timer');if(el)el.textContent=`${String(Math.floor(s/60)).padStart(2,'0')}:${String(s%60).padStart(2,'0')}`;if(s<=0){clearInterval(timerInt);alert('Time is up. Your test will be submitted.');submitMock(true)}}
+function choose(i){currentMock.answers[currentMock.index]=i;renderMockScreen()}
+function gotoQ(i){currentMock.index=i;renderMockScreen()}
+function nextQ(){if(currentMock.index<currentMock.questions.length-1){currentMock.index++;renderMockScreen()}else submitMock()}
+function prevQ(){if(currentMock.index>0){currentMock.index--;renderMockScreen()}}
+function toggleReview(){currentMock.review[currentMock.index]=!currentMock.review[currentMock.index];renderMockScreen()}
+async function submitMock(auto=false){
+ clearInterval(timerInt);if(!auto&&!confirm('Submit this test now?')){tick();return}
+ const m=currentMock;let correct=0,answered=0;
+ m.questions.forEach((q,i)=>{if(m.answers[i]!==null){answered++;if(m.answers[i]===q.correctAnswer)correct++}});
+ const score=correct,total=m.questions.length,accuracy=answered?correct/answered*100:0;
+ const attempt={id:'att-'+Date.now(),date:new Date().toISOString(),total,answered,correct,wrong:answered-correct,unanswered:total-answered,accuracy,questions:m.questions.map((q,i)=>({id:q.id,question:q.question,answer:m.answers[i],correctAnswer:q.correctAnswer,chapter:q.chapter,topic:q.topic}))};
+ await put(ATT,attempt);attempts.unshift(attempt);currentMock=null;document.getElementById('modal').classList.remove('show');showResult(attempt)
+}
+function showResult(a){document.getElementById('modalbox').innerHTML=`<h2>Test Result</h2><div class="results"><div class="card"><div class="muted">Score</div><div class="resultbig">${a.correct}/${a.total}</div></div><div class="card"><div class="muted">Accuracy</div><div class="resultbig">${a.accuracy.toFixed(1)}%</div></div><div class="card"><div class="muted">Answered</div><div class="resultbig">${a.answered}</div></div><div class="card"><div class="muted">Wrong</div><div class="resultbig">${a.wrong}</div></div></div><div style="margin-top:15px" class="card"><h3>Performance</h3><div class="bar"><i style="width:${a.accuracy}%"></i></div><p class="muted">${a.unanswered} unanswered. Scoring uses only verified correct answers from the question bank.</p></div><button class="btn primary" onclick="closeModal();navigate('results')">View Results</button>`;document.getElementById('modal').classList.add('show')}
+function closeModal(){document.getElementById('modal').classList.remove('show')}
+
+function renderBank(){
+ document.getElementById('bank').innerHTML=`<div class="row" style="justify-content:space-between"><div><h1 class="h">Question Bank</h1><div class="sub">Browse, filter and inspect every imported question.</div></div>${syncButton()}</div>
+ <div class="card"><div class="row"><div class="field"><label>Search</label><input id="b_search" placeholder="Search question, option, topic..."></div><div class="field"><label>Exam</label>${select('b_exam',distinct('exam'))}</div><div class="field"><label>Chapter</label>${select('b_chapter',distinct('chapter'))}</div><div class="field"><label>Type</label><select id="b_type"><option value="">All</option><option>PYQ</option><option>GENERATED</option></select></div></div></div><div id="banklist" class="list" style="margin-top:15px"></div>`;
+ ['b_search','b_exam','b_chapter','b_type'].forEach(id=>document.getElementById(id).addEventListener('input',drawBank));drawBank()
+}
+function drawBank(){
+ const s=norm(document.getElementById('b_search')?.value),e=document.getElementById('b_exam')?.value,c=document.getElementById('b_chapter')?.value,t=document.getElementById('b_type')?.value;
+ let arr=questions.filter(q=>(!s||norm([q.question,...(q.options||[]),q.topic,q.chapter].join(' ')).includes(s))&&(!e||q.exam===e)&&(!c||q.chapter===c)&&(!t||String(q.type||'PYQ').toUpperCase()===t));
+ document.getElementById('banklist').innerHTML=arr.slice(0,200).map((q,i)=>`<div class="item"><div>${tags(q)}</div><b>${i+1}. ${esc(q.question)}</b><div class="muted" style="margin-top:6px">${q.correctAnswer==null?'⚠️ Answer not verified':'✓ Answer verified'} • ${esc(q.source||q.paper||'')}</div><button class="btn ghost" style="margin-top:8px" onclick='inspectQuestion(${JSON.stringify(q.id)})'>View</button></div>`).join('')||'<div class="empty">No matching questions.</div>'
+}
+function inspectQuestion(id){let q=questions.find(x=>x.id===id);if(!q)return;document.getElementById('modalbox').innerHTML=`<h2>Question</h2>${tags(q)}<div class="qtext" style="margin:15px 0">${esc(q.question)}</div>${(q.options||[]).map((o,i)=>`<div class="option ${q.correctAnswer===i?'selected':''}"><b>${String.fromCharCode(65+i)}.</b> ${esc(o)}</div>`).join('')}<p><b>Correct answer:</b> ${q.correctAnswer==null?'Not verified':String.fromCharCode(65+q.correctAnswer)}</p><p class="muted"><b>Source:</b> ${esc(q.source||q.paper||'')}<br><b>Question ID:</b> ${esc(q.id)}</p><button class="btn" onclick="closeModal()">Close</button>`;document.getElementById('modal').classList.add('show')}
+
+function renderImport(){
+ document.getElementById('import').innerHTML=`<h1 class="h">Import JSON</h1><div class="sub">Import a JSON question bank generated from your PDFs or your own practice sets.</div>
+ <div class="card"><div class="notice">Recommended: include <b>id, exam, year, paper, subject, chapter, topic, type, question, options, correctAnswer</b>. For real PYQs, keep answers verified. Duplicate questions are skipped automatically.</div><div class="notice">For questions you add to GitHub, place the JSON under <b>papers/</b> or <b>generated/</b>, push the commit, then use <b>🔄 Sync Question Bank</b>. Repository questions can be updated on a later sync.</div>
+ <div class="row"><div class="field"><label>JSON file</label><input id="jsonfile" type="file" accept=".json,application/json"></div><button class="btn primary" onclick="importFile()">Import JSON</button></div><div id="importstatus" style="margin-top:12px"></div></div>
+ <div class="card" style="margin-top:15px"><h2>Accepted JSON</h2><pre style="white-space:pre-wrap;background:#f3f4f6;padding:12px;border-radius:8px">{
+  "questions": [
+    {
+      "id": "unique-id",
+      "exam": "Bihar STET",
+      "year": 2025,
+      "paper": "Class 11-12 Computer Science",
+      "subject": "Computer Science",
+      "chapter": "Digital Logic",
+      "topic": "K-Map",
+      "type": "PYQ",
+      "question": "Question text",
+      "options": ["A","B","C","D"],
+      "correctAnswer": 1,
+      "explanation": "Optional explanation",
+      "source": "Official PYQ"
+    }
+  ]
+}</pre></div>`;
+}
+async function importFile(){
+ const f=document.getElementById('jsonfile').files[0];if(!f)return alert('Choose a JSON file first.');
+ try{const raw=JSON.parse(await f.text());const arr=Array.isArray(raw)?raw:(raw.questions||[]);if(!arr.length)throw Error('No questions found.');
+ let added=0,skipped=0;
+ for(let i=0;i<arr.length;i++){let q={...arr[i]};q.id=q.id||`${norm(q.question).slice(0,35).replace(/\W+/g,'-')}-${Date.now()}-${i}`;q.options=q.options||[];q.type=(q.type||'PYQ').toUpperCase();q.answerSource=q.answerSource||((q.correctAnswer==null)?'not_verified':'imported');q.importedAt=new Date().toISOString();
+ if(q.correctAnswer!==null&&q.correctAnswer!==undefined)q.correctAnswer=Number(q.correctAnswer);
+ const dup=questions.some(x=>norm(x.question)===norm(q.question));if(dup){skipped++;continue}await put(STORE,q);questions.push(q);added++}
+ document.getElementById('importstatus').innerHTML=`<div class="notice">Imported <b>${added}</b> questions. Skipped <b>${skipped}</b> duplicates.</div>`;renderDashboard();
+ }catch(e){document.getElementById('importstatus').innerHTML=`<div class="notice warning">Import failed: ${esc(e.message)}</div>`}
+}
+async function exportBackup(){
+ const payload={version:'2.0',exportedAt:new Date().toISOString(),questions,attempts};
+ const blob=new Blob([JSON.stringify(payload,null,2)],{type:'application/json'}),a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='examforge-backup.json';a.click();URL.revokeObjectURL(a.href)
+}
+function renderResults(){
+ const avg=attempts.length?attempts.reduce((s,a)=>s+a.accuracy,0)/attempts.length:0;
+ let topic={};attempts.forEach(a=>a.questions.forEach(q=>{let k=q.topic||q.chapter||'Uncategorized';topic[k]??={c:0,t:0};topic[k].t++;if(q.answer!==null&&q.answer===q.correctAnswer)topic[k].c++}));
+ document.getElementById('results').innerHTML=`<h1 class="h">Results & Analytics</h1><div class="sub">Your attempts and topic-level performance.</div><div class="grid"><div class="card"><div class="muted">Attempts</div><div class="stat">${attempts.length}</div></div><div class="card"><div class="muted">Average Accuracy</div><div class="stat">${avg.toFixed(1)}%</div></div></div><div class="card" style="margin-top:15px"><h2>Topic Performance</h2>${Object.entries(topic).sort((a,b)=>a[1].c/a[1].t-b[1].c/b[1].t).map(([k,v])=>`<div style="margin:12px 0"><div class="row" style="justify-content:space-between"><b>${esc(k)}</b><span>${v.c}/${v.t} • ${(v.c/v.t*100).toFixed(1)}%</span></div><div class="bar"><i style="width:${v.c/v.t*100}%"></i></div></div>`).join('')||'<div class="empty">Complete a mock to see analytics.</div>'}</div><div class="card" style="margin-top:15px"><h2>Attempt History</h2>${attempts.slice(0,30).map(a=>`<div class="item"><b>${new Date(a.date).toLocaleString()}</b><div class="muted">${a.correct}/${a.total} • ${a.accuracy.toFixed(1)}% • ${a.wrong} wrong • ${a.unanswered} unanswered</div></div>`).join('')||'<div class="empty">No attempts yet.</div>'}</div>`
+}
+async function renderSettings(){
+ const ls=await metaGet('lastSync');
+ const syncText=ls?`${new Date(ls.time).toLocaleString()} — ${ls.added} added, ${ls.updated} updated, ${ls.files} files checked`:'Never synced';
+ document.getElementById('settings').innerHTML=`<h1 class="h">Settings & Data</h1><div class="sub">Questions synced from repository are cached in this browser's IndexedDB. STET 2025 answer keys in this package are provisional; BPSC TRE 3.0 Set E uses the published final key.</div><div class="card" style="margin-bottom:15px"><div class="row" style="justify-content:space-between"><div><b>Last repository sync</b><div class="muted">${esc(syncText)}</div></div>${syncButton()}</div></div><div class="grid"><div class="card"><h3>Backup</h3><p>Export your complete question bank and attempt history before changing devices/browser data.</p><button class="btn primary" onclick="exportBackup()">Export Backup JSON</button></div><div class="card"><h3>Reset</h3><p class="muted">This permanently clears local questions and attempts on this device.</p><button class="btn danger" onclick="resetAll()">Clear Local Data</button></div><div class="card"><h3>GitHub Pages</h3><p>This app is static and works on GitHub Pages. Imported questions are saved to IndexedDB in the browser, not back to GitHub.</p></div></div>`}
+async function resetAll(){if(!confirm('Clear ALL local questions and attempts? Export a backup first if needed.'))return;for(const q of questions)await del(STORE,q.id);for(const a of attempts)await del(ATT,a.id);questions=[];attempts=[];renderDashboard()}
+
+const BUNDLED_FILES = ["papers/bpsc-tre3-2024-cs-22-jul.json", "papers/stet-2025-shift-1.json", "papers/stet-2025-shift-2.json", "generated/digital-logic.json"];
+async function getQuestionFiles(){
+  try{
+    const res=await fetch('question-manifest.json',{cache:'no-store'});
+    if(res.ok){const m=await res.json();if(Array.isArray(m.files)&&m.files.length)return m.files;}
+  }catch(e){console.warn('Manifest unavailable; using fallback list',e)}
+  return BUNDLED_FILES;
+}
+
+function metaGet(key){
+  return new Promise((resolve,reject)=>{
+    const r=tx(META).get(key);
+    r.onsuccess=()=>resolve(r.result?.value ?? null);
+    r.onerror=()=>reject(r.error);
+  });
+}
+function metaPut(key,value){
+  return put(META,{key,value});
+}
+function questionFingerprint(q){
+  return norm([q.exam,q.year,q.paper,q.subject,q.chapter,q.topic,q.question,(q.options||[]).join('|')].join('||'));
+}
+
+async function syncQuestionBank(showMessage=true){
+  let added=0, updated=0, unchanged=0, failed=0, files=0;
+  // Keep local/manual imports, but repository JSON is authoritative for matching IDs.
+  const localById=new Map(questions.map(q=>[q.id,q]));
+  const localByFingerprint=new Map(questions.map(q=>[questionFingerprint(q),q]));
+  const questionFiles=await getQuestionFiles();
+  for(const url of questionFiles){
+    try{
+      const res=await fetch(url,{cache:'no-store'});
+      if(!res.ok){failed++;continue}
+      const raw=await res.json();
+      const arr=Array.isArray(raw)?raw:(raw.questions||[]);
+      files++;
+      for(let i=0;i<arr.length;i++){
+        let q={...arr[i]};
+        q.id=q.id||`${url}#${i+1}`;
+        q.options=q.options||[];
+        q.type=(q.type||'PYQ').toUpperCase();
+        if(q.correctAnswer===undefined) q.correctAnswer=null;
+        if(q.correctAnswer!==null) q.correctAnswer=Number(q.correctAnswer);
+        q.answerSource=q.answerSource||((q.correctAnswer==null)?'not_verified':'repository');
+        q.repositoryFile=url;
+        q.syncedAt=new Date().toISOString();
+
+        let existing=localById.get(q.id);
+        if(!existing) existing=localByFingerprint.get(questionFingerprint(q));
+
+        if(!existing){
+          await put(STORE,q); questions.push(q);
+          localById.set(q.id,q); localByFingerprint.set(questionFingerprint(q),q); added++;
+        }else{
+          // Repository updates only replace questions originating from the repository.
+          // Manual/local imports are not overwritten accidentally.
+          if(existing.repositoryFile || existing.sourceType==='repository' || existing.id===q.id){
+            const oldComparable={...existing}; delete oldComparable.syncedAt;
+            const newComparable={...q}; delete newComparable.syncedAt;
+            if(JSON.stringify(oldComparable)!==JSON.stringify(newComparable)){
+              await put(STORE,q);
+              const idx=questions.findIndex(x=>x.id===existing.id);
+              if(idx>=0) questions[idx]=q;
+              localById.set(q.id,q); localByFingerprint.set(questionFingerprint(q),q);
+              updated++;
+            }else unchanged++;
+          }else unchanged++;
+        }
+      }
+    }catch(e){console.warn('Sync failed for',url,e);failed++}
+  }
+  const info={time:new Date().toISOString(),added,updated,unchanged,failed,files,questionFiles};
+  await metaPut('lastSync',info);
+  if(showMessage){
+    alert(`Sync complete\n\n✓ ${added} new questions added\n✓ ${updated} questions updated\n✓ ${unchanged} already up to date\n${failed?`⚠ ${failed} file(s) failed\n`:''}✓ ${files} JSON file(s) checked`);
+  }
+  renderDashboard();
+  return info;
+}
+
+function syncButton(){
+  return `<button class="btn primary" onclick="syncQuestionBank(true)">🔄 Sync Question Bank</button>`;
+}
+
+
+(async()=>{
+  await openDB();
+  questions=await all(STORE);
+  attempts=await all(ATT);
+  const seeded=await metaGet('initialSyncDone');
+  if(!seeded){
+    await syncQuestionBank(false);
+    await metaPut('initialSyncDone',true);
+  }
+  renderDashboard();
+})()
+</script>
+</body>
+</html>

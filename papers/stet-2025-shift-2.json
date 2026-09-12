@@ -1,0 +1,1713 @@
+{
+  "id": "stet-2025-shift-2",
+  "exam": "STET",
+  "year": 2025,
+  "date": "04 Nov 2025",
+  "shift": "Shift 2",
+  "title": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+  "durationMinutes": 150,
+  "questions": [
+    {
+      "id": "stet-2025-2-q1",
+      "number": 1,
+      "question": "Which type of method does not have an implementation in the base class and must be overridden by derived classes?",
+      "options": [
+        "Virtual method",
+        "Abstract method",
+        "Sealed method",
+        "Static method"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 1,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q2",
+      "number": 2,
+      "question": "Which of the following is a DML command in SQL ?",
+      "options": [
+        "UPDATE",
+        "CREATE",
+        "ALTER",
+        "DROP STET Exam 2025 Paper 04/11/2025 2:00 PM - 4:30 PM inary numbers whose decimal equivalent is divisible by 3, what are all the possible remainders? Ans"
+      ],
+      "topic": "DBMS",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 2,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q4",
+      "number": 4,
+      "question": "The concept of monitors was introduced by:",
+      "options": [
+        "Edsger Dijkstra",
+        "Alan Turing",
+        "Tim Berners-Lee",
+        "Linus Torvalds"
+      ],
+      "topic": "Operating Systems",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 0,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q5",
+      "number": 5,
+      "question": "De Morgan's Theorems are particularly useful in simplifying logic expressions that have a large number of ___________.",
+      "options": [
+        "Variables",
+        "Constants",
+        "Terms",
+        "Operators for? Ans"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 0,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q7",
+      "number": 7,
+      "question": "What does the 'https' in a web address indicate ?",
+      "options": [
+        "The website is hosted on a local server",
+        "The website is a search engine",
+        "The website uses standard HTTP protocol",
+        "The website is secure using encryption"
+      ],
+      "topic": "Computer Networks",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 3,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q8",
+      "number": 8,
+      "question": "What is an entity in DTD?",
+      "options": [
+        "A reference to an external resource",
+        "A mathematical equation",
+        "A special XML tag",
+        "A function in JavaScript an image can be reduced using which of the following methods? Ans"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 3,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q10",
+      "number": 10,
+      "question": "Which version of IP address is most suitable for IoT?",
+      "options": [
+        "IP V4",
+        "IP V5",
+        "IP V6",
+        "IP V7"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 2,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q11",
+      "number": 11,
+      "question": "In computer graphics, arrays can be used to store pixel values for images. Which type of array would be suitable for this purpose?",
+      "options": [
+        "1-D array",
+        "2-D array",
+        "3-D array",
+        "4-D array ata Link Layer includes: Ans"
+      ],
+      "topic": "Data Structures",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 1,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q13",
+      "number": 13,
+      "question": "In general, a file is basically a collection of all related______.",
+      "options": [
+        "Rows & Columns",
+        "Database",
+        "Fields",
+        "Records"
+      ],
+      "topic": "DBMS",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 3,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q14",
+      "number": 14,
+      "question": "Which of the following refers to the level of data abstraction that describes exactly how the data actually stored?",
+      "options": [
+        "Conceptual Level",
+        "Physical Level",
+        "File Level",
+        "Logical Level f SCADA? Ans"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 1,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q16",
+      "number": 16,
+      "question": "Full form of MQTT is",
+      "options": [
+        "Multi-Queue Telemetry Things",
+        "Multiple Queueing Telemetry Things",
+        "Message Queue Telemetry Things",
+        "Message Queue Telemetry Transport"
+      ],
+      "topic": "Data Structures",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 3,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q17",
+      "number": 17,
+      "question": "What is the term for defining multiple methods in a class with the same name but different parameters?",
+      "options": [
+        "Overriding",
+        "Overloading",
+        "Inheriting",
+        "Inheritance mment using : Ans"
+      ],
+      "topic": "Programming",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 0,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q19",
+      "number": 19,
+      "question": "Consider the statements given below and then choose the correct output from the given options : D={ 'S01 ' : 95, 'S02' : 96 } for I in D : print ( I , end = '#' )",
+      "options": [
+        "S01#S02#",
+        "95#96#",
+        "S01,95#S02,96#",
+        "S01#95#S02#96#"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 0,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q20",
+      "number": 20,
+      "question": "In Karnaugh Maps, which of the following terms refers to a group of adjacent cells that can be combined to simplify a logic expression?",
+      "options": [
+        "Block",
+        "Cluster",
+        "Pair",
+        "Group on to fill in the blank : A ___________ is an online platform or website where individuals or businesses regularly publish articles/journals, known as posts, on various topics. Ans"
+      ],
+      "topic": "Digital Logic",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 1,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q22",
+      "number": 22,
+      "question": "The dining philosophers problem is an example of a synchronization problem related to:",
+      "options": [
+        "Process scheduling",
+        "Mutual exclusion",
+        "Memory allocation",
+        "Interrupt handling"
+      ],
+      "topic": "Operating Systems",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 1,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q23",
+      "number": 23,
+      "question": "Inter-process communication (IPC) is a mechanism used for:",
+      "options": [
+        "Preventing processes from executing concurrently",
+        "Allowing processes to run independently without communication",
+        "Enabling processes to exchange information and synchronize their actions",
+        "Enabling processes to execute in a random order f Domain Name System Server in networking? Ans"
+      ],
+      "topic": "Operating Systems",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 1,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q25",
+      "number": 25,
+      "question": "Which programming paradigm focuses on breaking down a program into smaller procedures or functions?",
+      "options": [
+        "Object-Oriented Programming",
+        "Procedural Programming",
+        "Functional Programming",
+        "Imperative Programming"
+      ],
+      "topic": "Programming",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 1,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q26",
+      "number": 26,
+      "question": "Which form of e‐marketplace brings together buyers and sellers from multiple industries, often for MRO materials?",
+      "options": [
+        "Horizontal",
+        "Vertical",
+        "integrated",
+        "isolated ol is responsible for mapping IP addresses to MAC addresses? Ans"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 0,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q28",
+      "number": 28,
+      "question": "The Cost Estimation technique that involves expert judgments and consensus is called:",
+      "options": [
+        "COCOMO",
+        "Delphi Method",
+        "Waterfall Model",
+        "Prototype Model"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 1,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q29",
+      "number": 29,
+      "question": "Which type of adder is designed to overcome the propagation delay issues in ripple carry adders and generate carry signals more efficiently?",
+      "options": [
+        "Ripple Carry Adder",
+        "Carry Look-Ahead Adder",
+        "Binary Adder",
+        "Half Adder d Reason type questions. This question consists of two statements, namely, Assertion (A) and Reason (R). Select the most suitable option considering the Assertion and Reason.Assertion (A) : SMS is an acronym for Smart Message Service.Reason (R) : SMS is the most common technology for delivering short, concise and important messages quickly. Ans"
+      ],
+      "topic": "Digital Logic",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 3,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q31",
+      "number": 31,
+      "question": "Which of the following conversion is not possible (algorithmically)?",
+      "options": [
+        "Regular grammar to context-free grammar",
+        "Non-deterministic pushdown automata to deterministic pushdown automata",
+        "Non-deterministic finite state automata to deterministic finite state automata",
+        "Non deterministic Turing machine to deterministic Turing machine"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 1,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q32",
+      "number": 32,
+      "question": "Which among the followings is not a property of knowledge representation?",
+      "options": [
+        "Representational Verification",
+        "Representational Adequacy",
+        "Inferential Adaquacy",
+        "Inferential Efficiency describes e‐commerce? Ans"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 0,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q34",
+      "number": 34,
+      "question": "How can you make an asynchronous request to a server in JavaScript?",
+      "options": [
+        "Using the \"async\" keyword",
+        "Using the \"await\" keyword",
+        "Using the fetch API or XMLHttpRequest",
+        "By defining a callback function"
+      ],
+      "topic": "Computer Networks",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 2,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q35",
+      "number": 35,
+      "question": "Evaluate the given postfix expression: 3 5 * 6 + 2 3 * -",
+      "options": [
+        "39",
+        "15",
+        "-9",
+        "-17 try 4.0 Ans"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 3,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q37",
+      "number": 37,
+      "question": "_________________ uses packet switching technology to carry voice traffic over an IP network where each packet follows best route to reach its destination.",
+      "options": [
+        "E-mail",
+        "HTTP",
+        "VoIP",
+        "SMTP"
+      ],
+      "topic": "Computer Networks",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 2,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q38",
+      "number": 38,
+      "question": "Delphi and COCOMO are techniques used for estimating:",
+      "options": [
+        "Software size",
+        "Software reliability",
+        "Software complexity",
+        "Software development cost proach for the 8-Queens problem, once a feasible solution is found, the algorithm: Ans"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 1,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q40",
+      "number": 40,
+      "question": "When using the parity bit method, how does the receiver determine if an error has occurred during transmission?",
+      "options": [
+        "By counting the number of ones in the data",
+        "By comparing the parity bit with the data",
+        "By performing modulo arithmetic",
+        "By comparing the number of ones with the parity bit"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 1,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q41",
+      "number": 41,
+      "question": "The term used to describe the maximum amount of data that can be transmitted over a communication channel in a given time period is:",
+      "options": [
+        "Bandwidth",
+        "Data Rate",
+        "Latency",
+        "Protocol t of the following statement ? Print (14%3**2*4) Ans"
+      ],
+      "topic": "Computer Networks",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 2,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q43",
+      "number": 43,
+      "question": "In XML, which attribute is used to uniquely identify an element?",
+      "options": [
+        "id",
+        "class",
+        "name",
+        "tag"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 0,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q44",
+      "number": 44,
+      "question": "Which of the following is type 1 language or Type 1 grammar?",
+      "options": [
+        "Regular grammar/ Regular language",
+        "Context Free Grammar / Context Free language",
+        "Context Sensitive Grammar / Context Sensitive language",
+        "Recursively Enumerable d to indicate that a class cannot be inherited by other classes? Ans"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 0,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q46",
+      "number": 46,
+      "question": "A universal Turing machine is a--------",
+      "options": [
+        "Single tape Turing machine",
+        "Two-tape Turing machine",
+        "Reprogrammable Truing machine",
+        "All of the above"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 2,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q47",
+      "number": 47,
+      "question": "To convert a Gray Code to its binary equivalent, which technique is commonly used?",
+      "options": [
+        "Subtraction method",
+        "Addition method",
+        "Exclusive OR (XOR) operation",
+        "Division method d Reason type questions. This question consists of two statements, namely, Assertion (A) and Reason (R). Select the most suitable option considering the Assertion and Reason. Assertion (A) : CSS is an attribute of the table tag and is used to style tables on a web page. Reason (R) : CSS is used to apply styles, such as fonts, colors, and spacing in an HTML document. Ans"
+      ],
+      "topic": "Digital Logic",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 3,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q49",
+      "number": 49,
+      "question": "Which sorting algorithm has a worst-case time complexity of O(n^2) in its basic form?",
+      "options": [
+        "Quick Sort",
+        "Merge Sort",
+        "Insertion Sort",
+        "Counting Sort"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 2,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q50",
+      "number": 50,
+      "question": "Greedy search strategy chooses the node for expansion in ___________",
+      "options": [
+        "Shallowest",
+        "Deepest",
+        "The one close to the goal node",
+        "Minimum heuristic cost d to detect and remove viruses only is called ______________. Ans"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 1,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q52",
+      "number": 52,
+      "question": "Which of the following refers to the level of data abstraction that describes exactly how the data stored?",
+      "options": [
+        "Conceptual Level",
+        "Physical Level",
+        "File Level",
+        "Logical Level"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 1,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q53",
+      "number": 53,
+      "question": "Which function should be used to get first n rows of a dataframe ?",
+      "options": [
+        "print(n)",
+        "head(n)",
+        "get(n)",
+        "call(n) is a mapped data type? Ans"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 2,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q55",
+      "number": 55,
+      "question": "The applications of AI includes",
+      "options": [
+        "Gaming",
+        "Expert Systems",
+        "ML and DL",
+        "All of the above"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 3,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q56",
+      "number": 56,
+      "question": "The easiest way in which we can transfer control is when the old backup site sends __________ to the old primary.",
+      "options": [
+        "Redo logs",
+        "Primary Logs",
+        "Undo Logs",
+        "All of the above of productions required to produce a language consisting of palindrome strings over ∑={a,b} is Ans"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 2,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q58",
+      "number": 58,
+      "question": "WSN stands for?",
+      "options": [
+        "Wireless Standard Protocol",
+        "Wireless Sensor Protocol",
+        "Wireless Serial Protocol",
+        "Wireless Single Protocol"
+      ],
+      "topic": "Computer Networks",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 1,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q59",
+      "number": 59,
+      "question": "Auxiliary storage space management in an operating system involves:",
+      "options": [
+        "Allocating memory for CPU registers",
+        "Managing input/output operations between processes and devices",
+        "Managing the allocation of memory to processes",
+        "Managing the allocation of space on secondary storage devices particular colour. Ans"
+      ],
+      "topic": "Operating Systems",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 2,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q61",
+      "number": 61,
+      "question": "The quality of ___ remains unchanged even if the size is increased or decreased.",
+      "options": [
+        "Vector graphics",
+        "Illustrations",
+        "Photographs",
+        "Line images"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 0,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q62",
+      "number": 62,
+      "question": "Software engineering emerged due to:",
+      "options": [
+        "The decline of computer technology",
+        "The need for complex hardware systems",
+        "The challenges posed by software development",
+        "The focus on hardware-only solutions cle model is based on iterative prototyping? Ans"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 1,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q64",
+      "number": 64,
+      "question": "Which technology offers the highest level of customization for implementing digital logic circuits?",
+      "options": [
+        "ROM-based design",
+        "PLA-based design",
+        "FPGA-based design",
+        "Gate Array-based design"
+      ],
+      "topic": "Data Structures",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 2,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q65",
+      "number": 65,
+      "question": "Stack works on the principle of………………..",
+      "options": [
+        "Mid Element First",
+        "First In First Out",
+        "Last In First Out",
+        "Last In Last Out Ans"
+      ],
+      "topic": "Data Structures",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 0,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q67",
+      "number": 67,
+      "question": "How are cookies typically stored on a client's device?",
+      "options": [
+        "In a plain text file",
+        "In a database",
+        "In an encrypted format",
+        "In the browser's cache"
+      ],
+      "topic": "DBMS",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 3,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q68",
+      "number": 68,
+      "question": "Which of the following is not considered as a type of e-waste ?",
+      "options": [
+        "Televisions",
+        "Personal Electronic Devices",
+        "Scanner and Copier",
+        "Newspaper ather of AI? Ans"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 2,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q70",
+      "number": 70,
+      "question": "What are the three main types of DBMSs?",
+      "options": [
+        "Relational DBMSs, hierarchical DBMSs, and network DBMSs.",
+        "Relational DBMSs, object-oriented DBMSs, and NoSQL DBMSs.",
+        "Hierarchical DBMSs, network DBMSs, and object-oriented DBMSs.",
+        "NoSQL DBMSs, object-oriented DBMSs, and relational DBMSs."
+      ],
+      "topic": "DBMS",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 1,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q71",
+      "number": 71,
+      "question": "In Python,………………..module need to be imported for implementing Double Ended Queue.",
+      "options": [
+        "counter",
+        "collections",
+        "random",
+        "numpy e following expression? 3 + 3.00, 3**3.0 Ans"
+      ],
+      "topic": "Digital Logic",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 3,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q73",
+      "number": 73,
+      "question": "What is the primary goal of the Backtracking approach in solving the Hamiltonian Cycle problem?",
+      "options": [
+        "To find a cycle with the fewest edges",
+        "To find a cycle with the lowest weight",
+        "To find a cycle that visits every vertex exactly once",
+        "To find a cycle with the maximum number of edges"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 2,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q74",
+      "number": 74,
+      "question": "Which statement is used to retrieve data from a database in SQL?",
+      "options": [
+        "SELECT",
+        "UPDATE",
+        "DELETE",
+        "INSERT f organizing wireless network topologies are? Ans"
+      ],
+      "topic": "DBMS",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 3,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q76",
+      "number": 76,
+      "question": "Musa's Basic Model is used for measuring:",
+      "options": [
+        "Software complexity",
+        "Software reliability",
+        "Software performance",
+        "Software size"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 1,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q77",
+      "number": 77,
+      "question": "Which characteristics are taken together in chromaticity?",
+      "options": [
+        "Hue and Saturation",
+        "Hue and Brightness",
+        "Saturation, Hue, and Brightness",
+        "Saturation and Brightness can be used to extract or filter the data & information from the data warehouse? Ans"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 2,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q79",
+      "number": 79,
+      "question": "Which memory management technique uses fixed-sized blocks of memory, allowing processes to be loaded into any available block?",
+      "options": [
+        "Paging",
+        "Segmentation",
+        "Virtual memory",
+        "Relocation"
+      ],
+      "topic": "Operating Systems",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 0,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q80",
+      "number": 80,
+      "question": "Which of the following is an extension to the basic model of Turing machine:",
+      "options": [
+        "Multi tape Turing machine",
+        "Multi head Turing machine",
+        "Nondeterministic Turing machine",
+        "All of the above Ans"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 1,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q82",
+      "number": 82,
+      "question": "Assertion (A) and Reason (R) based questions. Mark the correct choice as: Assertion (A) : Every object in Python is assigned a unique identity (ID). Reason (R) : ID remains the same for the lifetime of that object.",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A).",
+        "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Assertion (A) is false, but Reason (R) is true."
+      ],
+      "topic": "Programming",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 0,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q83",
+      "number": 83,
+      "question": "What is the primary purpose of Software Requirements Specification (SRS) documents?",
+      "options": [
+        "To list the programming languages used",
+        "To describe the user interface design",
+        "To define the software's functional and non-functional requirements",
+        "To specify the hardware components required plored level by level, starting from the: Ans"
+      ],
+      "topic": "Programming",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 1,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q85",
+      "number": 85,
+      "question": "Let the word be “automata”. The total number of states required to recognize the word using DFA would be __________",
+      "options": [
+        "9 states",
+        "8 states",
+        "10 states",
+        "word cannot be recognized using DFA"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 0,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q86",
+      "number": 86,
+      "question": "In MYSQL, which type of value should not be enclosed within quotation marks ?",
+      "options": [
+        "DATE",
+        "VARCHAR",
+        "FLOAT",
+        "CHAR d in which type of computer systems? Ans"
+      ],
+      "topic": "DBMS",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 0,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q88",
+      "number": 88,
+      "question": "ZigBee architecture has ________layers?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 1,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q89",
+      "number": 89,
+      "question": "What is the purpose of error control in the Data Link Layer?",
+      "options": [
+        "To prevent unauthorized access",
+        "To correct errors in the physical layer",
+        "To ensure reliable data transmission",
+        "To manage network congestion devices is essential to set up a wired LAN? Ans"
+      ],
+      "topic": "Computer Networks",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 1,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q91",
+      "number": 91,
+      "question": "Convert the Boolean function F(A, B, C) = Σ(0, 1, 3, 5) to its simplified SOP form.",
+      "options": [
+        "A + B + C",
+        "A'B + AC",
+        "A + B + C'",
+        "A'B'C"
+      ],
+      "topic": "Digital Logic",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 1,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q92",
+      "number": 92,
+      "question": "The main advantage of the overlay technique in memory management is that it allows:",
+      "options": [
+        "Processes to be loaded into memory as a whole",
+        "Processes to share memory partitions",
+        "Large programs to be executed on systems with limited memory",
+        "Processes to communicate directly with each other mmunication involves communication between: Ans"
+      ],
+      "topic": "Operating Systems",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 3,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q94",
+      "number": 94,
+      "question": "Which algorithm can be optimized to meet the timing deadlines and rate requirements of continuous media?",
+      "options": [
+        "Earliest-Deadline-First scheduling",
+        "SCAN-EDF scheduling",
+        "Both Earliest-Deadline-First scheduling & SCAN-EDF scheduling",
+        "None of the above"
+      ],
+      "topic": "Operating Systems",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 2,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q95",
+      "number": 95,
+      "question": "A socket is used for:",
+      "options": [
+        "Physical data transmission",
+        "Process-to-process communication",
+        "Storing network protocols",
+        "Network management ncryption Technique? Ans"
+      ],
+      "topic": "Operating Systems",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 3,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q97",
+      "number": 97,
+      "question": "Questions given below is of Assertion and Reason type question. This question consists of two statements, namely, Assertion (A) and Reason (R). Select the most suitable option considering the Assertion and Reason. Assertion (A) : It becomes difficult to update and maintain a website’s design using CSS. Reason (R) : CSS allows web developers to separate the presentation layer (styles and layout) from the content layer (HTML).",
+      "options": [
+        "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+        "Assertion (A) is true, but Reason (R) is false.",
+        "Assertion (A) is false, but Reason (R) is true."
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 3,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q98",
+      "number": 98,
+      "question": "How many inputs does a full -adder circuit have for each individual binary digit being added or subtracted?",
+      "options": [
+        "1 input",
+        "2 inputs",
+        "3 inputs",
+        "4 inputs release the first x86 microprocessor, the 8086, which laid the foundation for the x86 architecture widely used in personal computers? Ans"
+      ],
+      "topic": "Digital Logic",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 1,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q10",
+      "number": 10,
+      "question": "0 A threaded binary tree is a binary tree in which:",
+      "options": [
+        "Each node has two children",
+        "Each node has at most one child",
+        "Each node is connected to its parent",
+        "Each node has a thread connecting it to its predecessor or successor"
+      ],
+      "topic": "Digital Logic",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 3,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q10",
+      "number": 10,
+      "question": "1 Affective domain focuses on adoption of a value system as a part of life style in",
+      "options": [
+        "Responding",
+        "Valuing",
+        "Organization",
+        "Characterization 2 he roles of male and female.\" This statement articulates- Ans"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 3,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q10",
+      "number": 10,
+      "question": "3 The affective domain was classified by",
+      "options": [
+        "Benjamin S. Bloom",
+        "Simpson",
+        "Krathwhol",
+        "Both A and C"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 3,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q10",
+      "number": 10,
+      "question": "4 A teacher should employ classroom management strategies which focus on:",
+      "options": [
+        "controlling the class through rigid rules",
+        "expecting same behaviour from all children",
+        "making students abide to all rules without questioning",
+        "giving ample opportunities for self reflection 5 ing objectives is not being evaluated through our present system of examination: Ans"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 0,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q10",
+      "number": 10,
+      "question": "6 Individualized Education Programme is planned from the perspective of-",
+      "options": [
+        "Special Education Programme",
+        "Child-centered Education Programme",
+        "Open School Education Programme",
+        "e-Learning Education Programme"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 1,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q10",
+      "number": 10,
+      "question": "7 For the change in the behaviour of the children, the most effective method is",
+      "options": [
+        "affectionate advice",
+        "reward",
+        "punishment",
+        "expulsion from house 8 ychologist believed in the fact that 'All children have the potential to learn'? Ans"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 0,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q10",
+      "number": 10,
+      "question": "9 The drawback of micro teaching is –",
+      "options": [
+        "Not successful in real classroom conditions",
+        "Lack of supervision is found",
+        "No room for feedback",
+        "Longer duration of study"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 3,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q11",
+      "number": 11,
+      "question": "0 Which of the following is more important for keeping the good mental health of students?",
+      "options": [
+        "Provision for curricula activities",
+        "Freedom of expression",
+        "Variety of interests",
+        "Teacher’s role and school environment 1 d present a video clip in the class? Ans"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 1,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q11",
+      "number": 11,
+      "question": "2 Component of curriculum is:",
+      "options": [
+        "Teaching strategies",
+        "Objectives",
+        "Evaluation",
+        "All of these"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 3,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q11",
+      "number": 11,
+      "question": "3 The basic requirement of teaching efficiency is-",
+      "options": [
+        "Mastery on teaching skills",
+        "Mastery over use of different techniques of teaching.",
+        "Mastery over appropriate use of media and technology in teaching.",
+        "All the above 4 activity is considered in the post-active phase of teaching? Ans"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 1,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q11",
+      "number": 11,
+      "question": "5 An appropriate verb for an objective written to reflect assessment in the psychomotor domain of learning would be:",
+      "options": [
+        "Acknowledge",
+        "Explain",
+        "Relates",
+        "Assembles"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 3,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q11",
+      "number": 11,
+      "question": "6 One of the critiques of standardized tests has been that-",
+      "options": [
+        "they represent largely the mainstream culture and are therefore biased",
+        "their language is difficult to understand",
+        "the tests cannot be administered on large populations",
+        "they do not give a clear picture of a child's ability 7 re major components of classroom process. Ans"
+      ],
+      "topic": "Operating Systems",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 1,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q11",
+      "number": 11,
+      "question": "8 The evaluation used to improve the contents during curriculum development is:",
+      "options": [
+        "Summative evaluation",
+        "Formative evaluation",
+        "Diagnostic evaluation",
+        "None of these"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 1,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q11",
+      "number": 11,
+      "question": "9 Who developed inductive approach in science teaching?",
+      "options": [
+        "Aristotle",
+        "Bruner",
+        "Gagne",
+        "Francis Bacon 0 her must Ans"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 2,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q12",
+      "number": 12,
+      "question": "1 The Socratic method is known as",
+      "options": [
+        "Lecture demonstration method",
+        "Discussion method",
+        "Inquiry method",
+        "Question- Answer method"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 3,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q12",
+      "number": 12,
+      "question": "2 An outline-of the topics of a subject which covered in specific time is called:",
+      "options": [
+        "Programme",
+        "Syllabus",
+        "Curriculum",
+        "Course 3 cher must be Ans"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 3,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q12",
+      "number": 12,
+      "question": "4 Delivering lectures about key concepts that lead to student discussions is an example of",
+      "options": [
+        "Engage",
+        "Elaborate",
+        "Explore",
+        "Explain"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 3,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q12",
+      "number": 12,
+      "question": "5 The hypothesis underlying team teaching is",
+      "options": [
+        "Teachers feel bore while working alone",
+        "Teachers are not competent",
+        "The best teachers in schools are shared by more students",
+        "The single teacher cannot control the class 6 hierarchy is Ans"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 2,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q12",
+      "number": 12,
+      "question": "7 In Piaget’s theory of cognitive development, the form of reasoning at one stage becomes the ______ at the next stage:",
+      "options": [
+        "content.",
+        "structure.",
+        "process.",
+        "dialectical opposite"
+      ],
+      "topic": "Operating Systems",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 0,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q12",
+      "number": 12,
+      "question": "8 The best method to inspire students for hard labour is",
+      "options": [
+        "one should himself do hard labour seeing which students will be inspired spontaneously",
+        "laborious students should be rewarded",
+        "a lecture about the importance of hard labour be delivered",
+        "the example of success through hard labour be presented 9 or a teacher to resolve the problems in a class? Ans"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 2,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q13",
+      "number": 13,
+      "question": "0 Which of the following would you use to shape the habits?",
+      "options": [
+        "Indoctrination",
+        "Teaching",
+        "Training",
+        "None of these"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 2,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q13",
+      "number": 13,
+      "question": "1 With reference to Indian history, consider the following statements : 1.The first Mongol invasion of India happened during the reign of Jalal-ud-din Khalji. 2.During the reign of Ala-ud-din Khalji, one Mongol assault marched up to Delhi and besieged the city. 3. Mubammad-bin-Tughlaq temporarily lost portions of north-west of his kingdom to Mongols Which of the statements given above is/are correct?",
+      "options": [
+        "1 and 2",
+        "2 only",
+        "1 and 3",
+        "3 only 2 is not prism? Ans"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 1,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q13",
+      "number": 13,
+      "question": "3 Which of the following statements with reference to Surface inversion of termerature is/are correct ? 1. It causes instability in the lower layers of the atmosphere. 2. This inversion commonly lasts for a few hours until the Sun comes up. Select the correct answer from the given options :",
+      "options": [
+        "1 Only",
+        "2 Only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 1,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q13",
+      "number": 13,
+      "question": "4 Painting to a boy, Neha said '' He is the son of the only child of my Grand father. How is the boy related to Neha?",
+      "options": [
+        "Brother",
+        "Cousin",
+        "Uncle",
+        "Son in law 5 nd Hydel Project is located in which of the following States in India? Ans"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 1,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q13",
+      "number": 13,
+      "question": "6 What is the national animal of America ?",
+      "options": [
+        "Tiger and Bald Eagle",
+        "Bald Eagle and the American Bison",
+        "American Bison and Yak",
+        "Golden eagle and Bison"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 1,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q13",
+      "number": 13,
+      "question": "7 Special Economic Zones (SEZ) are developed to",
+      "options": [
+        "Generate additional economic activity throughout the country",
+        "Beautify suburban areas",
+        "Upgrade the facilities in the countryside",
+        "Promote investment from domestic and foreign sources 8 ity to do work. Ans"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 0,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q13",
+      "number": 13,
+      "question": "9 Where is the old and over 2 km-long ‘Pamban Railway Bridge’, which attracts tourists from all over the country?",
+      "options": [
+        "Nilgiri",
+        "Krishna delta",
+        "Palk straits",
+        "Malabar coast"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 2,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q14",
+      "number": 14,
+      "question": "0 What is a common effect of inflation on purchasing power?",
+      "options": [
+        "Increase in purchasing power",
+        "Decrease in purchasing power",
+        "No effect on purchasing power",
+        "Increase in savings 1 tion instead of the question mark in the given question. Mango : Fruit :: Onion : ? Ans"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 3,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q14",
+      "number": 14,
+      "question": "2 In the given number series what number will come in place of the Question Mark Symbol. 340, 316, 286, 250, ?",
+      "options": [
+        "280",
+        "249",
+        "208",
+        "148"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 2,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q14",
+      "number": 14,
+      "question": "3 What did Gandhi do to break the salt law?",
+      "options": [
+        "Dandi March",
+        "Ahmedabad March",
+        "Champaran March",
+        "All 4 BCD’ is written as 24 and ‘EFGH’ is written as 1680, then how is ‘IJKL’ written in that code? Ans"
+      ],
+      "topic": "Digital Logic",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 0,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q14",
+      "number": 14,
+      "question": "5 What is the remainder when 2765 is divided by 6?",
+      "options": [
+        "5",
+        "6",
+        "4",
+        "3"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 0,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q14",
+      "number": 14,
+      "question": "6 The number of vertices (V) , edges (E) and faces (F) of a polyhedron are respectively 10,15 and x. Then, the value of (3x-12) is :",
+      "options": [
+        "9",
+        "14",
+        "18",
+        "7 7 mbers? Ans"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 0,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q14",
+      "number": 14,
+      "question": "8 Choose the correct option to fill in the blank. The Vernacular Press Act was passed in……….on the lines of the Irish Press Act.",
+      "options": [
+        "1878",
+        "1968",
+        "1887",
+        "1778"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 3,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    },
+    {
+      "id": "stet-2025-2-q14",
+      "number": 14,
+      "question": "9 6 Person are sitting in two rows, numbered 3-3. If E does not sit at any of the ends. Dis second to the left of F. C is neighbour of E and sits diagonally opposite to D. B is neighbour of F. Then Tell who will be in front of B ?",
+      "options": [
+        "A",
+        "E",
+        "C",
+        "D \" 0 one term missing. Select the correct alternative from the given ones that will complete the series. B, C, E, H, L, ? Ans"
+      ],
+      "topic": "Unclassified",
+      "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+      "correctAnswer": 3,
+      "answerSource": "model_derived_provisional",
+      "type": "PYQ",
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+    }
+  ],
+  "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
+  "version": "2.0"
+}
