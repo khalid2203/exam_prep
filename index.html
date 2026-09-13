@@ -67,11 +67,11 @@ function renderDashboard(){
  <div class="card" style="margin-top:15px"><h2>How your workflow works</h2><p>Give your PDFs to ChatGPT to convert into clean, verified JSON. Import that JSON here. The app stores questions locally in IndexedDB and lets you build full-paper, chapter, topic, PYQ-only, generated-only and mixed tests.</p></div>`;
 }
 function distinct(field){return [...new Set(questions.map(q=>q[field]).filter(Boolean))].sort()}
-function paperKey(q){return q.paper ? `${q.exam||'Practice'} — ${q.paper}` : `${q.exam||'Practice'} — ${q.subject||'General Practice'}`}
-function distinctPapers(){return [...new Set(questions.map(paperKey))].sort()}
+function paperKey(q){return q.paper || (q.exam ? `${q.exam} — ${q.subject||'Practice'}` : `${q.subject||'General Practice'}`)}
+function distinctPapers(){return [...new Set(questions.map(paperKey).filter(Boolean))].sort()}
 function select(id,vals,allLabel='All'){return `<select id="${id}"><option value="">${allLabel}</option>${vals.map(v=>`<option>${esc(v)}</option>`).join('')}</select>`}
 function renderMocks(){
- document.getElementById('mocks').innerHTML=`<div class="row" style="justify-content:space-between"><div><h1 class="h">Create Mock Test</h1><div class="sub">Select an exam paper for a full-paper simulation, or leave it blank to build a custom topic/chapter test.</div></div>${syncButton()}</div>
+ document.getElementById('mocks').innerHTML=`<div class="row" style="justify-content:space-between"><div><h1 class="h">Create Mock Test</h1><div class="sub">Select an exam paper or practice set to take a full test, or leave it blank to build a custom topic/chapter test.</div></div>${syncButton()}</div>
  <div class="card"><div class="field" style="max-width:720px"><label>Exam / Paper</label>${select('mf_paper',distinctPapers(),'All exams / custom test')}</div>
  <div id="customFilters" style="margin-top:14px"><div class="row">
  <div class="field"><label>Exam</label>${select('mf_exam',distinct('exam'))}</div>
@@ -104,7 +104,8 @@ function updateMockInfo(){
  if(custom) custom.style.display=paper?'none':'block';
  if(paper){
    const sample=pool[0]||{};
-   document.getElementById('paperInfo').innerHTML=`<b>Full paper mode:</b> ${pool.length} questions in this paper. All scoreable questions will be included automatically. Time: ${sample.exam==='Bihar BPSC TRE 3.0'?150:150} minutes.`;
+   const mins=sample.durationMinutes||150;
+   document.getElementById('paperInfo').innerHTML=`<b>Full Paper Mode:</b> <b>${pool.length}</b> questions in <i>"${esc(paper)}"</i> (${scoreable} scoreable). All questions will be included. Time limit: ${mins} minutes.`;
  }else{
    document.getElementById('paperInfo').innerHTML=`<b>${scoreable}</b> scoreable questions match the current custom filters. Select an exam/paper above to run the complete paper.`;
  }
@@ -117,7 +118,8 @@ function startMock(){
  let minutes;
  if(fullPaper){
    count=pool.length;
-   minutes=150;
+   const sample=pool[0]||{};
+   minutes=sample.durationMinutes||150;
  }else{
    count=Math.min(Math.max(1,+document.getElementById('mf_count').value||20),pool.length);
    minutes=(+document.getElementById('mf_time').value||20);
@@ -129,7 +131,7 @@ function startMock(){
 }
 function renderMockScreen(){
  const m=currentMock,q=m.questions[m.index],total=m.questions.length;
- document.getElementById('modalbox').innerHTML=`<div class="mock-head"><b>${esc(q.exam||'Practice')} • ${esc(q.chapter||'')}</b><span class="timer" id="timer"></span><button class="btn danger" onclick="submitMock()">Submit</button></div>
+ document.getElementById('modalbox').innerHTML=`<div class="mock-head"><b>${esc(q.exam||'Practice')} • ${esc(q.chapter||q.subject||'')}</b><span class="timer" id="timer"></span><button class="btn danger" onclick="submitMock()">Submit</button></div>
  <div class="qwrap" style="padding-top:15px"><div class="qcard"><div class="muted">Question ${m.index+1} of ${total} • ${esc(q.topic||'')}</div><div class="qtext" style="margin:14px 0">${esc(q.question)}</div>
  ${q.options.map((o,i)=>`<label class="option ${m.answers[m.index]===i?'selected':''}"><input type="radio" name="opt" ${m.answers[m.index]===i?'checked':''} onchange="choose(${i})"><span><b>${String.fromCharCode(65+i)}.</b> ${esc(o)}</span></label>`).join('')}
  <div class="row" style="margin-top:15px"><button class="btn" onclick="prevQ()">Previous</button><button class="btn" onclick="toggleReview()">Mark for Review</button><button class="btn primary" onclick="nextQ()">${m.index===total-1?'Finish':'Next'}</button></div></div>
@@ -149,10 +151,114 @@ async function submitMock(auto=false){
  const m=currentMock;let correct=0,answered=0;
  m.questions.forEach((q,i)=>{if(m.answers[i]!==null){answered++;if(m.answers[i]===q.correctAnswer)correct++}});
  const score=correct,total=m.questions.length,accuracy=answered?correct/answered*100:0;
- const attempt={id:'att-'+Date.now(),date:new Date().toISOString(),total,answered,correct,wrong:answered-correct,unanswered:total-answered,accuracy,questions:m.questions.map((q,i)=>({id:q.id,question:q.question,answer:m.answers[i],correctAnswer:q.correctAnswer,chapter:q.chapter,topic:q.topic}))};
+ const attempt={
+   id:'att-'+Date.now(),
+   date:new Date().toISOString(),
+   total,
+   answered,
+   correct,
+   wrong:answered-correct,
+   unanswered:total-answered,
+   accuracy,
+   questions:m.questions.map((q,i)=>({
+     id:q.id,
+     question:q.question,
+     options:q.options||[],
+     answer:m.answers[i],
+     correctAnswer:q.correctAnswer,
+     chapter:q.chapter,
+     topic:q.topic,
+     exam:q.exam,
+     paper:q.paper,
+     explanation:q.explanation||''
+   }))
+ };
  await put(ATT,attempt);attempts.unshift(attempt);currentMock=null;document.getElementById('modal').classList.remove('show');showResult(attempt)
 }
-function showResult(a){document.getElementById('modalbox').innerHTML=`<h2>Test Result</h2><div class="results"><div class="card"><div class="muted">Score</div><div class="resultbig">${a.correct}/${a.total}</div></div><div class="card"><div class="muted">Accuracy</div><div class="resultbig">${a.accuracy.toFixed(1)}%</div></div><div class="card"><div class="muted">Answered</div><div class="resultbig">${a.answered}</div></div><div class="card"><div class="muted">Wrong</div><div class="resultbig">${a.wrong}</div></div></div><div style="margin-top:15px" class="card"><h3>Performance</h3><div class="bar"><i style="width:${a.accuracy}%"></i></div><p class="muted">${a.unanswered} unanswered. Scoring uses only verified correct answers from the question bank.</p></div><button class="btn primary" onclick="closeModal();navigate('results')">View Results</button>`;document.getElementById('modal').classList.add('show')}
+
+function renderAttemptReviewHtml(a){
+  return `<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:15px">
+    <div><h2>Test Results & Question Review</h2><div class="muted">${new Date(a.date).toLocaleString()}</div></div>
+    <button class="btn" onclick="closeModal()">✕ Close</button>
+  </div>
+  <div class="results">
+    <div class="card"><div class="muted">Score</div><div class="resultbig">${a.correct}/${a.total}</div></div>
+    <div class="card"><div class="muted">Accuracy</div><div class="resultbig">${a.accuracy.toFixed(1)}%</div></div>
+    <div class="card"><div class="muted">Correct</div><div class="resultbig" style="color:var(--ok)">${a.correct}</div></div>
+    <div class="card"><div class="muted">Wrong / Skipped</div><div class="resultbig" style="color:var(--danger)">${a.wrong + a.unanswered}</div></div>
+  </div>
+  <div style="margin-top:15px" class="card">
+    <h3>Performance Breakdown</h3>
+    <div class="bar" style="height:12px;margin:10px 0"><i style="width:${a.accuracy}%"></i></div>
+    <p class="muted">${a.correct} correct, ${a.wrong} wrong, ${a.unanswered} unanswered out of ${a.total} total questions.</p>
+  </div>
+  <h3 style="margin-top:25px;margin-bottom:12px">Detailed Question Breakdown</h3>
+  <div class="list">
+    ${a.questions.map((q,i)=>{
+      const bankQ = questions.find(x => x.id === q.id);
+      const opts = (q.options && q.options.length) ? q.options : (bankQ?.options || []);
+      const explanation = q.explanation || bankQ?.explanation || '';
+      const isCorrect = q.answer !== null && q.answer === q.correctAnswer;
+      const isUnanswered = q.answer === null;
+      
+      let statusBadge;
+      if (isUnanswered) {
+        statusBadge = `<span style="background:#f3f4f6;color:#4b5563;padding:4px 10px;border-radius:6px;font-weight:700;font-size:12px">⚪ Unanswered</span>`;
+      } else if (isCorrect) {
+        statusBadge = `<span style="background:#dcfce7;color:#166534;padding:4px 10px;border-radius:6px;font-weight:700;font-size:12px">✓ Correct</span>`;
+      } else {
+        statusBadge = `<span style="background:#fee2e2;color:#991b1b;padding:4px 10px;border-radius:6px;font-weight:700;font-size:12px">✗ Incorrect</span>`;
+      }
+
+      return `<div class="card" style="margin-bottom:15px;border-left:5px solid ${isCorrect?'#16a34a':(isUnanswered?'#9ca3af':'#dc2626')}">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+          <div><span style="font-weight:800;color:#374151">Question ${i+1} of ${a.total}</span> ${tags(q)}</div>
+          <div>${statusBadge}</div>
+        </div>
+        <div class="qtext" style="font-size:16px;margin:10px 0">${esc(q.question)}</div>
+        <div style="margin-top:10px">
+          ${opts.map((opt, optIdx) => {
+            const isUserChoice = (q.answer === optIdx);
+            const isCorrectChoice = (q.correctAnswer === optIdx);
+            let optStyle = "border:1px solid #e5e7eb;background:#fff;padding:10px 14px;border-radius:8px;margin:6px 0;display:flex;justify-content:space-between;align-items:center;";
+            let labelTag = "";
+
+            if (isUserChoice && isCorrectChoice) {
+              optStyle = "border:2px solid #16a34a;background:#f0fdf4;padding:10px 14px;border-radius:8px;margin:6px 0;display:flex;justify-content:space-between;align-items:center;";
+              labelTag = `<span style="color:#166534;font-weight:700;font-size:12px">✓ Your Answer (Correct)</span>`;
+            } else if (isUserChoice && !isCorrectChoice) {
+              optStyle = "border:2px solid #dc2626;background:#fef2f2;padding:10px 14px;border-radius:8px;margin:6px 0;display:flex;justify-content:space-between;align-items:center;";
+              labelTag = `<span style="color:#991b1b;font-weight:700;font-size:12px">✗ Your Answer (Incorrect)</span>`;
+            } else if (!isUserChoice && isCorrectChoice) {
+              optStyle = "border:2px dashed #16a34a;background:#f0fdf4;padding:10px 14px;border-radius:8px;margin:6px 0;display:flex;justify-content:space-between;align-items:center;";
+              labelTag = `<span style="color:#166534;font-weight:700;font-size:12px">✓ Correct Answer</span>`;
+            }
+
+            return `<div style="${optStyle}">
+              <div><b>${String.fromCharCode(65 + optIdx)}.</b> ${esc(opt)}</div>
+              <div>${labelTag}</div>
+            </div>`;
+          }).join('')}
+        </div>
+        ${explanation ? `<div style="margin-top:10px;padding:12px;background:#eff6ff;border-radius:8px;color:#1e40af;font-size:13px"><b>💡 Explanation:</b> ${esc(explanation)}</div>` : ''}
+      </div>`;
+    }).join('')}
+  </div>
+  <div style="margin-top:20px;text-align:right">
+    <button class="btn primary" onclick="closeModal();navigate('results')">Go to Results Dashboard</button>
+  </div>`;
+}
+
+function showResult(a){
+  document.getElementById('modalbox').innerHTML = renderAttemptReviewHtml(a);
+  document.getElementById('modal').classList.add('show');
+}
+function reviewAttempt(id){
+  const a = attempts.find(x => x.id === id);
+  if(!a) return alert('Attempt not found.');
+  document.getElementById('modalbox').innerHTML = renderAttemptReviewHtml(a);
+  document.getElementById('modal').classList.add('show');
+}
 function closeModal(){document.getElementById('modal').classList.remove('show')}
 
 function renderBank(){
@@ -193,12 +299,39 @@ function renderImport(){
 }
 async function importFile(){
  const f=document.getElementById('jsonfile').files[0];if(!f)return alert('Choose a JSON file first.');
- try{const raw=JSON.parse(await f.text());const arr=Array.isArray(raw)?raw:(raw.questions||[]);if(!arr.length)throw Error('No questions found.');
- let added=0,skipped=0;
- for(let i=0;i<arr.length;i++){let q={...arr[i]};q.id=q.id||`${norm(q.question).slice(0,35).replace(/\W+/g,'-')}-${Date.now()}-${i}`;q.options=q.options||[];q.type=(q.type||'PYQ').toUpperCase();q.answerSource=q.answerSource||((q.correctAnswer==null)?'not_verified':'imported');q.importedAt=new Date().toISOString();
- if(q.correctAnswer!==null&&q.correctAnswer!==undefined)q.correctAnswer=Number(q.correctAnswer);
- const dup=questions.some(x=>norm(x.question)===norm(q.question));if(dup){skipped++;continue}await put(STORE,q);questions.push(q);added++}
- document.getElementById('importstatus').innerHTML=`<div class="notice">Imported <b>${added}</b> questions. Skipped <b>${skipped}</b> duplicates.</div>`;renderDashboard();
+ try{
+  const raw=JSON.parse(await f.text());
+  const arr=Array.isArray(raw)?raw:(raw.questions||[]);
+  if(!arr.length)throw Error('No questions found.');
+  let added=0,skipped=0;
+  const seenIds=new Set(questions.map(q=>q.id));
+
+  for(let i=0;i<arr.length;i++){
+    let q={...arr[i]};
+    q.exam = q.exam || raw.exam || 'Imported';
+    q.paper = q.paper || raw.paper || raw.title || 'Imported Practice Set';
+    q.subject = q.subject || raw.subject || '';
+    if (raw.year && !q.year) q.year = raw.year;
+    if (raw.source && !q.source) q.source = raw.source;
+    if (raw.durationMinutes && !q.durationMinutes) q.durationMinutes = raw.durationMinutes;
+
+    q.id=q.id||`${norm(q.question).slice(0,35).replace(/\W+/g,'-')}-${Date.now()}-${i}`;
+    if(seenIds.has(q.id)){
+      q.id=`${q.id}_imp_${Date.now()}_${i}`;
+    }
+    seenIds.add(q.id);
+
+    q.options=q.options||[];
+    q.type=(q.type||'PYQ').toUpperCase();
+    q.answerSource=q.answerSource||((q.correctAnswer==null)?'not_verified':'imported');
+    q.importedAt=new Date().toISOString();
+    if(q.correctAnswer!==null&&q.correctAnswer!==undefined)q.correctAnswer=Number(q.correctAnswer);
+    
+    const dup=questions.some(x=>norm(x.question)===norm(q.question));
+    if(dup){skipped++;continue}
+    await put(STORE,q);questions.push(q);added++
+  }
+  document.getElementById('importstatus').innerHTML=`<div class="notice">Imported <b>${added}</b> questions. Skipped <b>${skipped}</b> duplicates.</div>`;renderDashboard();
  }catch(e){document.getElementById('importstatus').innerHTML=`<div class="notice warning">Import failed: ${esc(e.message)}</div>`}
 }
 async function exportBackup(){
@@ -208,7 +341,7 @@ async function exportBackup(){
 function renderResults(){
  const avg=attempts.length?attempts.reduce((s,a)=>s+a.accuracy,0)/attempts.length:0;
  let topic={};attempts.forEach(a=>a.questions.forEach(q=>{let k=q.topic||q.chapter||'Uncategorized';topic[k]??={c:0,t:0};topic[k].t++;if(q.answer!==null&&q.answer===q.correctAnswer)topic[k].c++}));
- document.getElementById('results').innerHTML=`<h1 class="h">Results & Analytics</h1><div class="sub">Your attempts and topic-level performance.</div><div class="grid"><div class="card"><div class="muted">Attempts</div><div class="stat">${attempts.length}</div></div><div class="card"><div class="muted">Average Accuracy</div><div class="stat">${avg.toFixed(1)}%</div></div></div><div class="card" style="margin-top:15px"><h2>Topic Performance</h2>${Object.entries(topic).sort((a,b)=>a[1].c/a[1].t-b[1].c/b[1].t).map(([k,v])=>`<div style="margin:12px 0"><div class="row" style="justify-content:space-between"><b>${esc(k)}</b><span>${v.c}/${v.t} • ${(v.c/v.t*100).toFixed(1)}%</span></div><div class="bar"><i style="width:${v.c/v.t*100}%"></i></div></div>`).join('')||'<div class="empty">Complete a mock to see analytics.</div>'}</div><div class="card" style="margin-top:15px"><h2>Attempt History</h2>${attempts.slice(0,30).map(a=>`<div class="item"><b>${new Date(a.date).toLocaleString()}</b><div class="muted">${a.correct}/${a.total} • ${a.accuracy.toFixed(1)}% • ${a.wrong} wrong • ${a.unanswered} unanswered</div></div>`).join('')||'<div class="empty">No attempts yet.</div>'}</div>`
+ document.getElementById('results').innerHTML=`<h1 class="h">Results & Analytics</h1><div class="sub">Your attempts and topic-level performance.</div><div class="grid"><div class="card"><div class="muted">Attempts</div><div class="stat">${attempts.length}</div></div><div class="card"><div class="muted">Average Accuracy</div><div class="stat">${avg.toFixed(1)}%</div></div></div><div class="card" style="margin-top:15px"><h2>Topic Performance</h2>${Object.entries(topic).sort((a,b)=>a[1].c/a[1].t-b[1].c/b[1].t).map(([k,v])=>`<div style="margin:12px 0"><div class="row" style="justify-content:space-between"><b>${esc(k)}</b><span>${v.c}/${v.t} • ${(v.c/v.t*100).toFixed(1)}%</span></div><div class="bar"><i style="width:${v.c/v.t*100}%"></i></div></div>`).join('')||'<div class="empty">Complete a mock to see analytics.</div>'}</div><div class="card" style="margin-top:15px"><h2>Attempt History</h2>${attempts.slice(0,30).map(a=>`<div class="item" style="display:flex;justify-content:space-between;align-items:center"><div><b>${new Date(a.date).toLocaleString()}</b><div class="muted">${a.correct}/${a.total} correct (${a.accuracy.toFixed(1)}%) • ${a.wrong} wrong • ${a.unanswered} unanswered</div></div><button class="btn ghost" onclick="reviewAttempt('${a.id}')">🔍 Review Test & Answers</button></div>`).join('')||'<div class="empty">No attempts yet.</div>'}</div>`
 }
 async function renderSettings(){
  const ls=await metaGet('lastSync');
@@ -241,10 +374,10 @@ function questionFingerprint(q){
 
 async function syncQuestionBank(showMessage=true){
   let added=0, updated=0, unchanged=0, failed=0, files=0;
-  // Keep local/manual imports, but repository JSON is authoritative for matching IDs.
   const localById=new Map(questions.map(q=>[q.id,q]));
   const localByFingerprint=new Map(questions.map(q=>[questionFingerprint(q),q]));
   const questionFiles=await getQuestionFiles();
+  
   for(const url of questionFiles){
     try{
       const res=await fetch(url,{cache:'no-store'});
@@ -252,9 +385,23 @@ async function syncQuestionBank(showMessage=true){
       const raw=await res.json();
       const arr=Array.isArray(raw)?raw:(raw.questions||[]);
       files++;
+      const seenIdsInFile=new Set();
+
       for(let i=0;i<arr.length;i++){
         let q={...arr[i]};
+        q.exam = q.exam || raw.exam || 'Practice';
+        q.paper = q.paper || raw.paper || raw.title || 'Practice Set';
+        q.subject = q.subject || raw.subject || 'Computer Science';
+        if (raw.year && !q.year) q.year = raw.year;
+        if (raw.source && !q.source) q.source = raw.source;
+        if (raw.durationMinutes && !q.durationMinutes) q.durationMinutes = raw.durationMinutes;
+
         q.id=q.id||`${url}#${i+1}`;
+        if(seenIdsInFile.has(q.id)){
+          q.id=`${q.id}_dup_${i+1}`;
+        }
+        seenIdsInFile.add(q.id);
+
         q.options=q.options||[];
         q.type=(q.type||'PYQ').toUpperCase();
         if(q.correctAnswer===undefined) q.correctAnswer=null;
@@ -270,8 +417,6 @@ async function syncQuestionBank(showMessage=true){
           await put(STORE,q); questions.push(q);
           localById.set(q.id,q); localByFingerprint.set(questionFingerprint(q),q); added++;
         }else{
-          // Repository updates only replace questions originating from the repository.
-          // Manual/local imports are not overwritten accidentally.
           if(existing.repositoryFile || existing.sourceType==='repository' || existing.id===q.id){
             const oldComparable={...existing}; delete oldComparable.syncedAt;
             const newComparable={...q}; delete newComparable.syncedAt;
@@ -305,10 +450,11 @@ function syncButton(){
   await openDB();
   questions=await all(STORE);
   attempts=await all(ATT);
-  const seeded=await metaGet('initialSyncDone');
-  if(!seeded){
+  const schemaVer=await metaGet('schemaVer');
+  if(!schemaVer || schemaVer < 2){
     await syncQuestionBank(false);
-    await metaPut('initialSyncDone',true);
+    await metaPut('schemaVer',2);
+    questions=await all(STORE);
   }
   renderDashboard();
 })()

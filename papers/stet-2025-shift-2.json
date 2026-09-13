@@ -22,7 +22,9 @@
       "correctAnswer": 1,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
       "id": "stet-2025-2-q2",
@@ -39,11 +41,13 @@
       "correctAnswer": 2,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q4",
-      "number": 4,
+      "id": "stet-2025-2-q3",
+      "number": 3,
       "question": "The concept of monitors was introduced by:",
       "options": [
         "Edsger Dijkstra",
@@ -56,11 +60,13 @@
       "correctAnswer": 0,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q5",
-      "number": 5,
+      "id": "stet-2025-2-q4",
+      "number": 4,
       "question": "De Morgan's Theorems are particularly useful in simplifying logic expressions that have a large number of ___________.",
       "options": [
         "Variables",
@@ -73,11 +79,13 @@
       "correctAnswer": 0,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q7",
-      "number": 7,
+      "id": "stet-2025-2-q5",
+      "number": 5,
       "question": "What does the 'https' in a web address indicate ?",
       "options": [
         "The website is hosted on a local server",
@@ -90,11 +98,13 @@
       "correctAnswer": 3,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q8",
-      "number": 8,
+      "id": "stet-2025-2-q6",
+      "number": 6,
       "question": "What is an entity in DTD?",
       "options": [
         "A reference to an external resource",
@@ -107,11 +117,13 @@
       "correctAnswer": 3,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q10",
-      "number": 10,
+      "id": "stet-2025-2-q7",
+      "number": 7,
       "question": "Which version of IP address is most suitable for IoT?",
       "options": [
         "IP V4",
@@ -124,11 +136,13 @@
       "correctAnswer": 2,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q11",
-      "number": 11,
+      "id": "stet-2025-2-q8",
+      "number": 8,
       "question": "In computer graphics, arrays can be used to store pixel values for images. Which type of array would be suitable for this purpose?",
       "options": [
         "1-D array",
@@ -141,11 +155,13 @@
       "correctAnswer": 1,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q13",
-      "number": 13,
+      "id": "stet-2025-2-q9",
+      "number": 9,
       "question": "In general, a file is basically a collection of all related______.",
       "options": [
         "Rows & Columns",
@@ -158,11 +174,13 @@
       "correctAnswer": 3,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q14",
-      "number": 14,
+      "id": "stet-2025-2-q10",
+      "number": 10,
       "question": "Which of the following refers to the level of data abstraction that describes exactly how the data actually stored?",
       "options": [
         "Conceptual Level",
@@ -175,11 +193,13 @@
       "correctAnswer": 1,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q16",
-      "number": 16,
+      "id": "stet-2025-2-q11",
+      "number": 11,
       "question": "Full form of MQTT is",
       "options": [
         "Multi-Queue Telemetry Things",
@@ -192,11 +212,13 @@
       "correctAnswer": 3,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q17",
-      "number": 17,
+      "id": "stet-2025-2-q12",
+      "number": 12,
       "question": "What is the term for defining multiple methods in a class with the same name but different parameters?",
       "options": [
         "Overriding",
@@ -209,11 +231,13 @@
       "correctAnswer": 0,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q19",
-      "number": 19,
+      "id": "stet-2025-2-q13",
+      "number": 13,
       "question": "Consider the statements given below and then choose the correct output from the given options : D={ 'S01 ' : 95, 'S02' : 96 } for I in D : print ( I , end = '#' )",
       "options": [
         "S01#S02#",
@@ -226,11 +250,13 @@
       "correctAnswer": 0,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q20",
-      "number": 20,
+      "id": "stet-2025-2-q14",
+      "number": 14,
       "question": "In Karnaugh Maps, which of the following terms refers to a group of adjacent cells that can be combined to simplify a logic expression?",
       "options": [
         "Block",
@@ -243,11 +269,13 @@
       "correctAnswer": 1,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q22",
-      "number": 22,
+      "id": "stet-2025-2-q15",
+      "number": 15,
       "question": "The dining philosophers problem is an example of a synchronization problem related to:",
       "options": [
         "Process scheduling",
@@ -260,11 +288,13 @@
       "correctAnswer": 1,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q23",
-      "number": 23,
+      "id": "stet-2025-2-q16",
+      "number": 16,
       "question": "Inter-process communication (IPC) is a mechanism used for:",
       "options": [
         "Preventing processes from executing concurrently",
@@ -277,11 +307,13 @@
       "correctAnswer": 1,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q25",
-      "number": 25,
+      "id": "stet-2025-2-q17",
+      "number": 17,
       "question": "Which programming paradigm focuses on breaking down a program into smaller procedures or functions?",
       "options": [
         "Object-Oriented Programming",
@@ -294,11 +326,13 @@
       "correctAnswer": 1,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q26",
-      "number": 26,
+      "id": "stet-2025-2-q18",
+      "number": 18,
       "question": "Which form of e‐marketplace brings together buyers and sellers from multiple industries, often for MRO materials?",
       "options": [
         "Horizontal",
@@ -311,11 +345,13 @@
       "correctAnswer": 0,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q28",
-      "number": 28,
+      "id": "stet-2025-2-q19",
+      "number": 19,
       "question": "The Cost Estimation technique that involves expert judgments and consensus is called:",
       "options": [
         "COCOMO",
@@ -328,11 +364,13 @@
       "correctAnswer": 1,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q29",
-      "number": 29,
+      "id": "stet-2025-2-q20",
+      "number": 20,
       "question": "Which type of adder is designed to overcome the propagation delay issues in ripple carry adders and generate carry signals more efficiently?",
       "options": [
         "Ripple Carry Adder",
@@ -345,11 +383,13 @@
       "correctAnswer": 3,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q31",
-      "number": 31,
+      "id": "stet-2025-2-q21",
+      "number": 21,
       "question": "Which of the following conversion is not possible (algorithmically)?",
       "options": [
         "Regular grammar to context-free grammar",
@@ -362,11 +402,13 @@
       "correctAnswer": 1,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q32",
-      "number": 32,
+      "id": "stet-2025-2-q22",
+      "number": 22,
       "question": "Which among the followings is not a property of knowledge representation?",
       "options": [
         "Representational Verification",
@@ -379,11 +421,13 @@
       "correctAnswer": 0,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q34",
-      "number": 34,
+      "id": "stet-2025-2-q23",
+      "number": 23,
       "question": "How can you make an asynchronous request to a server in JavaScript?",
       "options": [
         "Using the \"async\" keyword",
@@ -396,11 +440,13 @@
       "correctAnswer": 2,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q35",
-      "number": 35,
+      "id": "stet-2025-2-q24",
+      "number": 24,
       "question": "Evaluate the given postfix expression: 3 5 * 6 + 2 3 * -",
       "options": [
         "39",
@@ -413,11 +459,13 @@
       "correctAnswer": 3,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q37",
-      "number": 37,
+      "id": "stet-2025-2-q25",
+      "number": 25,
       "question": "_________________ uses packet switching technology to carry voice traffic over an IP network where each packet follows best route to reach its destination.",
       "options": [
         "E-mail",
@@ -430,11 +478,13 @@
       "correctAnswer": 2,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q38",
-      "number": 38,
+      "id": "stet-2025-2-q26",
+      "number": 26,
       "question": "Delphi and COCOMO are techniques used for estimating:",
       "options": [
         "Software size",
@@ -447,11 +497,13 @@
       "correctAnswer": 1,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q40",
-      "number": 40,
+      "id": "stet-2025-2-q27",
+      "number": 27,
       "question": "When using the parity bit method, how does the receiver determine if an error has occurred during transmission?",
       "options": [
         "By counting the number of ones in the data",
@@ -464,11 +516,13 @@
       "correctAnswer": 1,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q41",
-      "number": 41,
+      "id": "stet-2025-2-q28",
+      "number": 28,
       "question": "The term used to describe the maximum amount of data that can be transmitted over a communication channel in a given time period is:",
       "options": [
         "Bandwidth",
@@ -481,11 +535,13 @@
       "correctAnswer": 2,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q43",
-      "number": 43,
+      "id": "stet-2025-2-q29",
+      "number": 29,
       "question": "In XML, which attribute is used to uniquely identify an element?",
       "options": [
         "id",
@@ -498,11 +554,13 @@
       "correctAnswer": 0,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q44",
-      "number": 44,
+      "id": "stet-2025-2-q30",
+      "number": 30,
       "question": "Which of the following is type 1 language or Type 1 grammar?",
       "options": [
         "Regular grammar/ Regular language",
@@ -515,11 +573,13 @@
       "correctAnswer": 0,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q46",
-      "number": 46,
+      "id": "stet-2025-2-q31",
+      "number": 31,
       "question": "A universal Turing machine is a--------",
       "options": [
         "Single tape Turing machine",
@@ -532,11 +592,13 @@
       "correctAnswer": 2,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q47",
-      "number": 47,
+      "id": "stet-2025-2-q32",
+      "number": 32,
       "question": "To convert a Gray Code to its binary equivalent, which technique is commonly used?",
       "options": [
         "Subtraction method",
@@ -549,11 +611,13 @@
       "correctAnswer": 3,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q49",
-      "number": 49,
+      "id": "stet-2025-2-q33",
+      "number": 33,
       "question": "Which sorting algorithm has a worst-case time complexity of O(n^2) in its basic form?",
       "options": [
         "Quick Sort",
@@ -566,11 +630,13 @@
       "correctAnswer": 2,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q50",
-      "number": 50,
+      "id": "stet-2025-2-q34",
+      "number": 34,
       "question": "Greedy search strategy chooses the node for expansion in ___________",
       "options": [
         "Shallowest",
@@ -583,11 +649,13 @@
       "correctAnswer": 1,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q52",
-      "number": 52,
+      "id": "stet-2025-2-q35",
+      "number": 35,
       "question": "Which of the following refers to the level of data abstraction that describes exactly how the data stored?",
       "options": [
         "Conceptual Level",
@@ -600,11 +668,13 @@
       "correctAnswer": 1,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q53",
-      "number": 53,
+      "id": "stet-2025-2-q36",
+      "number": 36,
       "question": "Which function should be used to get first n rows of a dataframe ?",
       "options": [
         "print(n)",
@@ -617,11 +687,13 @@
       "correctAnswer": 2,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q55",
-      "number": 55,
+      "id": "stet-2025-2-q37",
+      "number": 37,
       "question": "The applications of AI includes",
       "options": [
         "Gaming",
@@ -634,11 +706,13 @@
       "correctAnswer": 3,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q56",
-      "number": 56,
+      "id": "stet-2025-2-q38",
+      "number": 38,
       "question": "The easiest way in which we can transfer control is when the old backup site sends __________ to the old primary.",
       "options": [
         "Redo logs",
@@ -651,11 +725,13 @@
       "correctAnswer": 2,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q58",
-      "number": 58,
+      "id": "stet-2025-2-q39",
+      "number": 39,
       "question": "WSN stands for?",
       "options": [
         "Wireless Standard Protocol",
@@ -668,11 +744,13 @@
       "correctAnswer": 1,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q59",
-      "number": 59,
+      "id": "stet-2025-2-q40",
+      "number": 40,
       "question": "Auxiliary storage space management in an operating system involves:",
       "options": [
         "Allocating memory for CPU registers",
@@ -685,11 +763,13 @@
       "correctAnswer": 2,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q61",
-      "number": 61,
+      "id": "stet-2025-2-q41",
+      "number": 41,
       "question": "The quality of ___ remains unchanged even if the size is increased or decreased.",
       "options": [
         "Vector graphics",
@@ -702,11 +782,13 @@
       "correctAnswer": 0,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q62",
-      "number": 62,
+      "id": "stet-2025-2-q42",
+      "number": 42,
       "question": "Software engineering emerged due to:",
       "options": [
         "The decline of computer technology",
@@ -719,11 +801,13 @@
       "correctAnswer": 1,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q64",
-      "number": 64,
+      "id": "stet-2025-2-q43",
+      "number": 43,
       "question": "Which technology offers the highest level of customization for implementing digital logic circuits?",
       "options": [
         "ROM-based design",
@@ -736,11 +820,13 @@
       "correctAnswer": 2,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q65",
-      "number": 65,
+      "id": "stet-2025-2-q44",
+      "number": 44,
       "question": "Stack works on the principle of………………..",
       "options": [
         "Mid Element First",
@@ -753,11 +839,13 @@
       "correctAnswer": 0,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q67",
-      "number": 67,
+      "id": "stet-2025-2-q45",
+      "number": 45,
       "question": "How are cookies typically stored on a client's device?",
       "options": [
         "In a plain text file",
@@ -770,11 +858,13 @@
       "correctAnswer": 3,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q68",
-      "number": 68,
+      "id": "stet-2025-2-q46",
+      "number": 46,
       "question": "Which of the following is not considered as a type of e-waste ?",
       "options": [
         "Televisions",
@@ -787,11 +877,13 @@
       "correctAnswer": 2,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q70",
-      "number": 70,
+      "id": "stet-2025-2-q47",
+      "number": 47,
       "question": "What are the three main types of DBMSs?",
       "options": [
         "Relational DBMSs, hierarchical DBMSs, and network DBMSs.",
@@ -804,11 +896,13 @@
       "correctAnswer": 1,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q71",
-      "number": 71,
+      "id": "stet-2025-2-q48",
+      "number": 48,
       "question": "In Python,………………..module need to be imported for implementing Double Ended Queue.",
       "options": [
         "counter",
@@ -821,11 +915,13 @@
       "correctAnswer": 3,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q73",
-      "number": 73,
+      "id": "stet-2025-2-q49",
+      "number": 49,
       "question": "What is the primary goal of the Backtracking approach in solving the Hamiltonian Cycle problem?",
       "options": [
         "To find a cycle with the fewest edges",
@@ -838,11 +934,13 @@
       "correctAnswer": 2,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q74",
-      "number": 74,
+      "id": "stet-2025-2-q50",
+      "number": 50,
       "question": "Which statement is used to retrieve data from a database in SQL?",
       "options": [
         "SELECT",
@@ -855,11 +953,13 @@
       "correctAnswer": 3,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q76",
-      "number": 76,
+      "id": "stet-2025-2-q51",
+      "number": 51,
       "question": "Musa's Basic Model is used for measuring:",
       "options": [
         "Software complexity",
@@ -872,11 +972,13 @@
       "correctAnswer": 1,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q77",
-      "number": 77,
+      "id": "stet-2025-2-q52",
+      "number": 52,
       "question": "Which characteristics are taken together in chromaticity?",
       "options": [
         "Hue and Saturation",
@@ -889,11 +991,13 @@
       "correctAnswer": 2,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q79",
-      "number": 79,
+      "id": "stet-2025-2-q53",
+      "number": 53,
       "question": "Which memory management technique uses fixed-sized blocks of memory, allowing processes to be loaded into any available block?",
       "options": [
         "Paging",
@@ -906,11 +1010,13 @@
       "correctAnswer": 0,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q80",
-      "number": 80,
+      "id": "stet-2025-2-q54",
+      "number": 54,
       "question": "Which of the following is an extension to the basic model of Turing machine:",
       "options": [
         "Multi tape Turing machine",
@@ -923,11 +1029,13 @@
       "correctAnswer": 1,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q82",
-      "number": 82,
+      "id": "stet-2025-2-q55",
+      "number": 55,
       "question": "Assertion (A) and Reason (R) based questions. Mark the correct choice as: Assertion (A) : Every object in Python is assigned a unique identity (ID). Reason (R) : ID remains the same for the lifetime of that object.",
       "options": [
         "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A).",
@@ -940,11 +1048,13 @@
       "correctAnswer": 0,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q83",
-      "number": 83,
+      "id": "stet-2025-2-q56",
+      "number": 56,
       "question": "What is the primary purpose of Software Requirements Specification (SRS) documents?",
       "options": [
         "To list the programming languages used",
@@ -957,11 +1067,13 @@
       "correctAnswer": 1,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q85",
-      "number": 85,
+      "id": "stet-2025-2-q57",
+      "number": 57,
       "question": "Let the word be “automata”. The total number of states required to recognize the word using DFA would be __________",
       "options": [
         "9 states",
@@ -974,11 +1086,13 @@
       "correctAnswer": 0,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q86",
-      "number": 86,
+      "id": "stet-2025-2-q58",
+      "number": 58,
       "question": "In MYSQL, which type of value should not be enclosed within quotation marks ?",
       "options": [
         "DATE",
@@ -991,11 +1105,13 @@
       "correctAnswer": 0,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q88",
-      "number": 88,
+      "id": "stet-2025-2-q59",
+      "number": 59,
       "question": "ZigBee architecture has ________layers?",
       "options": [
         "4",
@@ -1008,11 +1124,13 @@
       "correctAnswer": 1,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q89",
-      "number": 89,
+      "id": "stet-2025-2-q60",
+      "number": 60,
       "question": "What is the purpose of error control in the Data Link Layer?",
       "options": [
         "To prevent unauthorized access",
@@ -1025,11 +1143,13 @@
       "correctAnswer": 1,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q91",
-      "number": 91,
+      "id": "stet-2025-2-q61",
+      "number": 61,
       "question": "Convert the Boolean function F(A, B, C) = Σ(0, 1, 3, 5) to its simplified SOP form.",
       "options": [
         "A + B + C",
@@ -1042,11 +1162,13 @@
       "correctAnswer": 1,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q92",
-      "number": 92,
+      "id": "stet-2025-2-q62",
+      "number": 62,
       "question": "The main advantage of the overlay technique in memory management is that it allows:",
       "options": [
         "Processes to be loaded into memory as a whole",
@@ -1059,11 +1181,13 @@
       "correctAnswer": 3,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q94",
-      "number": 94,
+      "id": "stet-2025-2-q63",
+      "number": 63,
       "question": "Which algorithm can be optimized to meet the timing deadlines and rate requirements of continuous media?",
       "options": [
         "Earliest-Deadline-First scheduling",
@@ -1076,11 +1200,13 @@
       "correctAnswer": 2,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q95",
-      "number": 95,
+      "id": "stet-2025-2-q64",
+      "number": 64,
       "question": "A socket is used for:",
       "options": [
         "Physical data transmission",
@@ -1093,11 +1219,13 @@
       "correctAnswer": 3,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q97",
-      "number": 97,
+      "id": "stet-2025-2-q65",
+      "number": 65,
       "question": "Questions given below is of Assertion and Reason type question. This question consists of two statements, namely, Assertion (A) and Reason (R). Select the most suitable option considering the Assertion and Reason. Assertion (A) : It becomes difficult to update and maintain a website’s design using CSS. Reason (R) : CSS allows web developers to separate the presentation layer (styles and layout) from the content layer (HTML).",
       "options": [
         "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
@@ -1110,11 +1238,13 @@
       "correctAnswer": 3,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q98",
-      "number": 98,
+      "id": "stet-2025-2-q66",
+      "number": 66,
       "question": "How many inputs does a full -adder circuit have for each individual binary digit being added or subtracted?",
       "options": [
         "1 input",
@@ -1127,12 +1257,14 @@
       "correctAnswer": 1,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q10",
-      "number": 10,
-      "question": "0 A threaded binary tree is a binary tree in which:",
+      "id": "stet-2025-2-q67",
+      "number": 67,
+      "question": "A threaded binary tree is a binary tree in which:",
       "options": [
         "Each node has two children",
         "Each node has at most one child",
@@ -1144,12 +1276,14 @@
       "correctAnswer": 3,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q10",
-      "number": 10,
-      "question": "1 Affective domain focuses on adoption of a value system as a part of life style in",
+      "id": "stet-2025-2-q68",
+      "number": 68,
+      "question": "Affective domain focuses on adoption of a value system as a part of life style in",
       "options": [
         "Responding",
         "Valuing",
@@ -1161,12 +1295,14 @@
       "correctAnswer": 3,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q10",
-      "number": 10,
-      "question": "3 The affective domain was classified by",
+      "id": "stet-2025-2-q69",
+      "number": 69,
+      "question": "The affective domain was classified by",
       "options": [
         "Benjamin S. Bloom",
         "Simpson",
@@ -1178,12 +1314,14 @@
       "correctAnswer": 3,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q10",
-      "number": 10,
-      "question": "4 A teacher should employ classroom management strategies which focus on:",
+      "id": "stet-2025-2-q70",
+      "number": 70,
+      "question": "A teacher should employ classroom management strategies which focus on:",
       "options": [
         "controlling the class through rigid rules",
         "expecting same behaviour from all children",
@@ -1195,12 +1333,14 @@
       "correctAnswer": 0,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q10",
-      "number": 10,
-      "question": "6 Individualized Education Programme is planned from the perspective of-",
+      "id": "stet-2025-2-q71",
+      "number": 71,
+      "question": "Individualized Education Programme is planned from the perspective of-",
       "options": [
         "Special Education Programme",
         "Child-centered Education Programme",
@@ -1212,12 +1352,14 @@
       "correctAnswer": 1,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q10",
-      "number": 10,
-      "question": "7 For the change in the behaviour of the children, the most effective method is",
+      "id": "stet-2025-2-q72",
+      "number": 72,
+      "question": "For the change in the behaviour of the children, the most effective method is",
       "options": [
         "affectionate advice",
         "reward",
@@ -1229,12 +1371,14 @@
       "correctAnswer": 0,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q10",
-      "number": 10,
-      "question": "9 The drawback of micro teaching is –",
+      "id": "stet-2025-2-q73",
+      "number": 73,
+      "question": "The drawback of micro teaching is –",
       "options": [
         "Not successful in real classroom conditions",
         "Lack of supervision is found",
@@ -1246,12 +1390,14 @@
       "correctAnswer": 3,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q11",
-      "number": 11,
-      "question": "0 Which of the following is more important for keeping the good mental health of students?",
+      "id": "stet-2025-2-q74",
+      "number": 74,
+      "question": "Which of the following is more important for keeping the good mental health of students?",
       "options": [
         "Provision for curricula activities",
         "Freedom of expression",
@@ -1263,12 +1409,14 @@
       "correctAnswer": 1,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q11",
-      "number": 11,
-      "question": "2 Component of curriculum is:",
+      "id": "stet-2025-2-q75",
+      "number": 75,
+      "question": "Component of curriculum is:",
       "options": [
         "Teaching strategies",
         "Objectives",
@@ -1280,12 +1428,14 @@
       "correctAnswer": 3,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q11",
-      "number": 11,
-      "question": "3 The basic requirement of teaching efficiency is-",
+      "id": "stet-2025-2-q76",
+      "number": 76,
+      "question": "The basic requirement of teaching efficiency is-",
       "options": [
         "Mastery on teaching skills",
         "Mastery over use of different techniques of teaching.",
@@ -1297,12 +1447,14 @@
       "correctAnswer": 1,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q11",
-      "number": 11,
-      "question": "5 An appropriate verb for an objective written to reflect assessment in the psychomotor domain of learning would be:",
+      "id": "stet-2025-2-q77",
+      "number": 77,
+      "question": "An appropriate verb for an objective written to reflect assessment in the psychomotor domain of learning would be:",
       "options": [
         "Acknowledge",
         "Explain",
@@ -1314,12 +1466,14 @@
       "correctAnswer": 3,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q11",
-      "number": 11,
-      "question": "6 One of the critiques of standardized tests has been that-",
+      "id": "stet-2025-2-q78",
+      "number": 78,
+      "question": "One of the critiques of standardized tests has been that-",
       "options": [
         "they represent largely the mainstream culture and are therefore biased",
         "their language is difficult to understand",
@@ -1331,12 +1485,14 @@
       "correctAnswer": 1,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q11",
-      "number": 11,
-      "question": "8 The evaluation used to improve the contents during curriculum development is:",
+      "id": "stet-2025-2-q79",
+      "number": 79,
+      "question": "The evaluation used to improve the contents during curriculum development is:",
       "options": [
         "Summative evaluation",
         "Formative evaluation",
@@ -1348,12 +1504,14 @@
       "correctAnswer": 1,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q11",
-      "number": 11,
-      "question": "9 Who developed inductive approach in science teaching?",
+      "id": "stet-2025-2-q80",
+      "number": 80,
+      "question": "Who developed inductive approach in science teaching?",
       "options": [
         "Aristotle",
         "Bruner",
@@ -1365,12 +1523,14 @@
       "correctAnswer": 2,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q12",
-      "number": 12,
-      "question": "1 The Socratic method is known as",
+      "id": "stet-2025-2-q81",
+      "number": 81,
+      "question": "The Socratic method is known as",
       "options": [
         "Lecture demonstration method",
         "Discussion method",
@@ -1382,12 +1542,14 @@
       "correctAnswer": 3,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q12",
-      "number": 12,
-      "question": "2 An outline-of the topics of a subject which covered in specific time is called:",
+      "id": "stet-2025-2-q82",
+      "number": 82,
+      "question": "An outline-of the topics of a subject which covered in specific time is called:",
       "options": [
         "Programme",
         "Syllabus",
@@ -1399,12 +1561,14 @@
       "correctAnswer": 3,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q12",
-      "number": 12,
-      "question": "4 Delivering lectures about key concepts that lead to student discussions is an example of",
+      "id": "stet-2025-2-q83",
+      "number": 83,
+      "question": "Delivering lectures about key concepts that lead to student discussions is an example of",
       "options": [
         "Engage",
         "Elaborate",
@@ -1416,12 +1580,14 @@
       "correctAnswer": 3,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q12",
-      "number": 12,
-      "question": "5 The hypothesis underlying team teaching is",
+      "id": "stet-2025-2-q84",
+      "number": 84,
+      "question": "The hypothesis underlying team teaching is",
       "options": [
         "Teachers feel bore while working alone",
         "Teachers are not competent",
@@ -1433,12 +1599,14 @@
       "correctAnswer": 2,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q12",
-      "number": 12,
-      "question": "7 In Piaget’s theory of cognitive development, the form of reasoning at one stage becomes the ______ at the next stage:",
+      "id": "stet-2025-2-q85",
+      "number": 85,
+      "question": "In Piaget’s theory of cognitive development, the form of reasoning at one stage becomes the ______ at the next stage:",
       "options": [
         "content.",
         "structure.",
@@ -1450,12 +1618,14 @@
       "correctAnswer": 0,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q12",
-      "number": 12,
-      "question": "8 The best method to inspire students for hard labour is",
+      "id": "stet-2025-2-q86",
+      "number": 86,
+      "question": "The best method to inspire students for hard labour is",
       "options": [
         "one should himself do hard labour seeing which students will be inspired spontaneously",
         "laborious students should be rewarded",
@@ -1467,12 +1637,14 @@
       "correctAnswer": 2,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q13",
-      "number": 13,
-      "question": "0 Which of the following would you use to shape the habits?",
+      "id": "stet-2025-2-q87",
+      "number": 87,
+      "question": "Which of the following would you use to shape the habits?",
       "options": [
         "Indoctrination",
         "Teaching",
@@ -1484,12 +1656,14 @@
       "correctAnswer": 2,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q13",
-      "number": 13,
-      "question": "1 With reference to Indian history, consider the following statements : 1.The first Mongol invasion of India happened during the reign of Jalal-ud-din Khalji. 2.During the reign of Ala-ud-din Khalji, one Mongol assault marched up to Delhi and besieged the city. 3. Mubammad-bin-Tughlaq temporarily lost portions of north-west of his kingdom to Mongols Which of the statements given above is/are correct?",
+      "id": "stet-2025-2-q88",
+      "number": 88,
+      "question": "With reference to Indian history, consider the following statements : 1.The first Mongol invasion of India happened during the reign of Jalal-ud-din Khalji. 2.During the reign of Ala-ud-din Khalji, one Mongol assault marched up to Delhi and besieged the city. 3. Mubammad-bin-Tughlaq temporarily lost portions of north-west of his kingdom to Mongols Which of the statements given above is/are correct?",
       "options": [
         "1 and 2",
         "2 only",
@@ -1501,12 +1675,14 @@
       "correctAnswer": 1,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q13",
-      "number": 13,
-      "question": "3 Which of the following statements with reference to Surface inversion of termerature is/are correct ? 1. It causes instability in the lower layers of the atmosphere. 2. This inversion commonly lasts for a few hours until the Sun comes up. Select the correct answer from the given options :",
+      "id": "stet-2025-2-q89",
+      "number": 89,
+      "question": "Which of the following statements with reference to Surface inversion of termerature is/are correct ? 1. It causes instability in the lower layers of the atmosphere. 2. This inversion commonly lasts for a few hours until the Sun comes up. Select the correct answer from the given options :",
       "options": [
         "1 Only",
         "2 Only",
@@ -1518,12 +1694,14 @@
       "correctAnswer": 1,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q13",
-      "number": 13,
-      "question": "4 Painting to a boy, Neha said '' He is the son of the only child of my Grand father. How is the boy related to Neha?",
+      "id": "stet-2025-2-q90",
+      "number": 90,
+      "question": "Painting to a boy, Neha said '' He is the son of the only child of my Grand father. How is the boy related to Neha?",
       "options": [
         "Brother",
         "Cousin",
@@ -1535,12 +1713,14 @@
       "correctAnswer": 1,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q13",
-      "number": 13,
-      "question": "6 What is the national animal of America ?",
+      "id": "stet-2025-2-q91",
+      "number": 91,
+      "question": "What is the national animal of America ?",
       "options": [
         "Tiger and Bald Eagle",
         "Bald Eagle and the American Bison",
@@ -1552,12 +1732,14 @@
       "correctAnswer": 1,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q13",
-      "number": 13,
-      "question": "7 Special Economic Zones (SEZ) are developed to",
+      "id": "stet-2025-2-q92",
+      "number": 92,
+      "question": "Special Economic Zones (SEZ) are developed to",
       "options": [
         "Generate additional economic activity throughout the country",
         "Beautify suburban areas",
@@ -1569,12 +1751,14 @@
       "correctAnswer": 0,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q13",
-      "number": 13,
-      "question": "9 Where is the old and over 2 km-long ‘Pamban Railway Bridge’, which attracts tourists from all over the country?",
+      "id": "stet-2025-2-q93",
+      "number": 93,
+      "question": "Where is the old and over 2 km-long ‘Pamban Railway Bridge’, which attracts tourists from all over the country?",
       "options": [
         "Nilgiri",
         "Krishna delta",
@@ -1586,12 +1770,14 @@
       "correctAnswer": 2,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q14",
-      "number": 14,
-      "question": "0 What is a common effect of inflation on purchasing power?",
+      "id": "stet-2025-2-q94",
+      "number": 94,
+      "question": "What is a common effect of inflation on purchasing power?",
       "options": [
         "Increase in purchasing power",
         "Decrease in purchasing power",
@@ -1603,12 +1789,14 @@
       "correctAnswer": 3,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q14",
-      "number": 14,
-      "question": "2 In the given number series what number will come in place of the Question Mark Symbol. 340, 316, 286, 250, ?",
+      "id": "stet-2025-2-q95",
+      "number": 95,
+      "question": "In the given number series what number will come in place of the Question Mark Symbol. 340, 316, 286, 250, ?",
       "options": [
         "280",
         "249",
@@ -1620,12 +1808,14 @@
       "correctAnswer": 2,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q14",
-      "number": 14,
-      "question": "3 What did Gandhi do to break the salt law?",
+      "id": "stet-2025-2-q96",
+      "number": 96,
+      "question": "What did Gandhi do to break the salt law?",
       "options": [
         "Dandi March",
         "Ahmedabad March",
@@ -1637,12 +1827,14 @@
       "correctAnswer": 0,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q14",
-      "number": 14,
-      "question": "5 What is the remainder when 2765 is divided by 6?",
+      "id": "stet-2025-2-q97",
+      "number": 97,
+      "question": "What is the remainder when 2765 is divided by 6?",
       "options": [
         "5",
         "6",
@@ -1654,12 +1846,14 @@
       "correctAnswer": 0,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q14",
-      "number": 14,
-      "question": "6 The number of vertices (V) , edges (E) and faces (F) of a polyhedron are respectively 10,15 and x. Then, the value of (3x-12) is :",
+      "id": "stet-2025-2-q98",
+      "number": 98,
+      "question": "The number of vertices (V) , edges (E) and faces (F) of a polyhedron are respectively 10,15 and x. Then, the value of (3x-12) is :",
       "options": [
         "9",
         "14",
@@ -1671,12 +1865,14 @@
       "correctAnswer": 0,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q14",
-      "number": 14,
-      "question": "8 Choose the correct option to fill in the blank. The Vernacular Press Act was passed in……….on the lines of the Irish Press Act.",
+      "id": "stet-2025-2-q99",
+      "number": 99,
+      "question": "Choose the correct option to fill in the blank. The Vernacular Press Act was passed in……….on the lines of the Irish Press Act.",
       "options": [
         "1878",
         "1968",
@@ -1688,12 +1884,14 @@
       "correctAnswer": 3,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     },
     {
-      "id": "stet-2025-2-q14",
-      "number": 14,
-      "question": "9 6 Person are sitting in two rows, numbered 3-3. If E does not sit at any of the ends. Dis second to the left of F. C is neighbour of E and sits diagonally opposite to D. B is neighbour of F. Then Tell who will be in front of B ?",
+      "id": "stet-2025-2-q100",
+      "number": 100,
+      "question": "6 Person are sitting in two rows, numbered 3-3. If E does not sit at any of the ends. Dis second to the left of F. C is neighbour of E and sits diagonally opposite to D. B is neighbour of F. Then Tell who will be in front of B ?",
       "options": [
         "A",
         "E",
@@ -1705,9 +1903,12 @@
       "correctAnswer": 3,
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
-      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
+      "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2",
+      "exam": "STET",
+      "subject": "Computer Science"
     }
   ],
   "source": "bihar-stet-class-11-12-computer-science-official-q-6a187f_copy.pdf",
-  "version": "2.0"
+  "version": "2.0",
+  "paper": "Bihar STET 2025 — Computer Science — 04 Nov 2025 — Shift 2"
 }

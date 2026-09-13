@@ -22,7 +22,9 @@
       "explanation": "13 = 8+4+1, so 1101.",
       "correctAnswer": 2,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-002",
@@ -41,7 +43,9 @@
       "explanation": "1111 = F and 1010 = A.",
       "correctAnswer": 0,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-003",
@@ -60,7 +64,9 @@
       "explanation": "Group as 101 101 = 5 5 in octal.",
       "correctAnswer": 0,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-004",
@@ -79,7 +85,9 @@
       "explanation": "255 = 15×16+15 = FF.",
       "correctAnswer": 1,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-005",
@@ -98,7 +106,9 @@
       "explanation": "BCD encodes each decimal digit independently in 4 bits.",
       "correctAnswer": 1,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-006",
@@ -117,7 +127,9 @@
       "explanation": "Gray code has unit-distance transitions.",
       "correctAnswer": 2,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-007",
@@ -136,7 +148,9 @@
       "explanation": "Standard ASCII is 7-bit.",
       "correctAnswer": 2,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-008",
@@ -155,7 +169,9 @@
       "explanation": "EBCDIC is associated with IBM mainframe systems.",
       "correctAnswer": 0,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-009",
@@ -174,7 +190,9 @@
       "explanation": "5 = 0101 and 9 = 1001.",
       "correctAnswer": 0,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-010",
@@ -193,7 +211,9 @@
       "explanation": "Gray coding reduces transition ambiguity.",
       "correctAnswer": 0,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-011",
@@ -212,7 +232,9 @@
       "explanation": "The MSB is the sign bit; range is −2^(n−1) through 2^(n−1)−1.",
       "correctAnswer": 1,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-012",
@@ -231,7 +253,9 @@
       "explanation": "Invert every bit.",
       "correctAnswer": 0,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-013",
@@ -250,7 +274,9 @@
       "explanation": "Invert to 11010010 and add 1 → 11010011.",
       "correctAnswer": 1,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-014",
@@ -269,7 +295,9 @@
       "explanation": "Overflow occurs when two same-sign operands produce a result with the opposite sign.",
       "correctAnswer": 1,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-015",
@@ -288,7 +316,9 @@
       "explanation": "11 + 5 = 16 = 10000₂.",
       "correctAnswer": 2,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-016",
@@ -307,7 +337,9 @@
       "explanation": "13 − 6 = 7 = 0111₂.",
       "correctAnswer": 0,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-017",
@@ -326,7 +358,9 @@
       "explanation": "1's complement has two zero representations.",
       "correctAnswer": 1,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-018",
@@ -345,7 +379,9 @@
       "explanation": "NAND is a universal gate.",
       "correctAnswer": 1,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-019",
@@ -364,7 +400,9 @@
       "explanation": "Either NAND alone or NOR alone is universal.",
       "correctAnswer": 2,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-020",
@@ -383,7 +421,9 @@
       "explanation": "Absorption law: X + XY = X.",
       "correctAnswer": 0,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-021",
@@ -402,7 +442,9 @@
       "explanation": "Absorption law: X(X+Y)=X.",
       "correctAnswer": 1,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-022",
@@ -421,7 +463,9 @@
       "explanation": "De Morgan: (X+Y)'=X'Y'.",
       "correctAnswer": 1,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-023",
@@ -440,7 +484,9 @@
       "explanation": "De Morgan: (XY)'=X'+Y'.",
       "correctAnswer": 1,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-024",
@@ -459,7 +505,9 @@
       "explanation": "OR is 0 only for all-zero input.",
       "correctAnswer": 0,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-025",
@@ -478,7 +526,9 @@
       "explanation": "AND requires every input to be 1.",
       "correctAnswer": 1,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-026",
@@ -497,7 +547,9 @@
       "explanation": "XOR is 1 when inputs differ.",
       "correctAnswer": 1,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-027",
@@ -516,7 +568,9 @@
       "explanation": "XNOR is the equality detector.",
       "correctAnswer": 1,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-028",
@@ -535,7 +589,9 @@
       "explanation": "Each variable has two possible values.",
       "correctAnswer": 2,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-029",
@@ -554,7 +610,9 @@
       "explanation": "Canonical SOP is the sum of minterms.",
       "correctAnswer": 1,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-030",
@@ -573,7 +631,9 @@
       "explanation": "Canonical POS is the product of maxterms.",
       "correctAnswer": 1,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-031",
@@ -592,7 +652,9 @@
       "explanation": "A 4-variable map has 2^4 = 16 cells.",
       "correctAnswer": 2,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-032",
@@ -611,7 +673,9 @@
       "explanation": "Valid groups contain 1,2,4,8,... cells.",
       "correctAnswer": 1,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-033",
@@ -630,7 +694,9 @@
       "explanation": "The map's left/right and top/bottom edges are adjacent.",
       "correctAnswer": 1,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-034",
@@ -649,7 +715,9 @@
       "explanation": "POS simplification groups zero cells.",
       "correctAnswer": 1,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-035",
@@ -668,7 +736,9 @@
       "explanation": "X cells can be used as either value if beneficial.",
       "correctAnswer": 2,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-036",
@@ -687,7 +757,9 @@
       "explanation": "Half adder adds two bits: Sum and Carry.",
       "correctAnswer": 0,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-037",
@@ -706,7 +778,9 @@
       "explanation": "Sum = A XOR B.",
       "correctAnswer": 2,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-038",
@@ -725,7 +799,9 @@
       "explanation": "Carry = AB.",
       "correctAnswer": 2,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-039",
@@ -744,7 +820,9 @@
       "explanation": "Inputs are A, B and Cin.",
       "correctAnswer": 2,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-040",
@@ -763,7 +841,9 @@
       "explanation": "Two half adders plus OR combine the carries.",
       "correctAnswer": 0,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-041",
@@ -782,7 +862,9 @@
       "explanation": "Outputs are Difference and Borrow.",
       "correctAnswer": 1,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-042",
@@ -801,7 +883,9 @@
       "explanation": "Carry ripples from the least significant stage upward.",
       "correctAnswer": 1,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-043",
@@ -820,7 +904,9 @@
       "explanation": "It indicates A>B, A=B and/or A<B.",
       "correctAnswer": 1,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-044",
@@ -839,7 +925,9 @@
       "explanation": "2^3 = 8.",
       "correctAnswer": 1,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-045",
@@ -858,7 +946,9 @@
       "explanation": "2^4 = 16.",
       "correctAnswer": 2,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-046",
@@ -877,7 +967,9 @@
       "explanation": "A DEMUX distributes one input among multiple outputs.",
       "correctAnswer": 1,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-047",
@@ -896,7 +988,9 @@
       "explanation": "An n-bit encoder has 2^n possible input lines.",
       "correctAnswer": 1,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-048",
@@ -915,7 +1009,9 @@
       "explanation": "A decoder expands n inputs to 2^n outputs.",
       "correctAnswer": 0,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-049",
@@ -934,7 +1030,9 @@
       "explanation": "Parity provides a simple error-detection mechanism.",
       "correctAnswer": 0,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-050",
@@ -953,7 +1051,9 @@
       "explanation": "ROM retains contents without power.",
       "correctAnswer": 1,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-051",
@@ -972,7 +1072,9 @@
       "explanation": "EPROM uses UV light for erasure.",
       "correctAnswer": 1,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-052",
@@ -991,7 +1093,9 @@
       "explanation": "EEPROM = electrically erasable programmable ROM.",
       "correctAnswer": 1,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-053",
@@ -1010,7 +1114,9 @@
       "explanation": "PLA has programmable AND and OR planes.",
       "correctAnswer": 1,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-054",
@@ -1029,7 +1135,9 @@
       "explanation": "Input combinations address stored output values.",
       "correctAnswer": 0,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-055",
@@ -1048,7 +1156,9 @@
       "explanation": "S and R control set/reset behavior.",
       "correctAnswer": 0,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-056",
@@ -1067,7 +1177,9 @@
       "explanation": "JK modifies the SR concept and supports toggle operation.",
       "correctAnswer": 2,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-057",
@@ -1086,7 +1198,9 @@
       "explanation": "JK with both inputs high toggles the state.",
       "correctAnswer": 3,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-058",
@@ -1105,7 +1219,9 @@
       "explanation": "Q(next)=D at the active clock edge.",
       "correctAnswer": 1,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-059",
@@ -1124,7 +1240,9 @@
       "explanation": "T=1 causes state inversion.",
       "correctAnswer": 1,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-060",
@@ -1143,7 +1261,9 @@
       "explanation": "Each flip-flop stores one bit.",
       "correctAnswer": 1,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-061",
@@ -1162,7 +1282,9 @@
       "explanation": "Clock pulses move data between register stages.",
       "correctAnswer": 0,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-062",
@@ -1181,7 +1303,9 @@
       "explanation": "Counters advance through a sequence on clock events.",
       "correctAnswer": 1,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-063",
@@ -1200,7 +1324,9 @@
       "explanation": "MOD-N has N distinct states.",
       "correctAnswer": 2,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-064",
@@ -1219,7 +1345,9 @@
       "explanation": "Irregular counters use a selected/non-natural state sequence.",
       "correctAnswer": 1,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-065",
@@ -1238,7 +1366,9 @@
       "explanation": "It graphically describes state changes.",
       "correctAnswer": 1,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-066",
@@ -1257,7 +1387,9 @@
       "explanation": "ADC = analog-to-digital converter.",
       "correctAnswer": 1,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-067",
@@ -1276,7 +1408,9 @@
       "explanation": "DAC = digital-to-analog converter.",
       "correctAnswer": 1,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-068",
@@ -1295,7 +1429,9 @@
       "explanation": "More bits mean more distinct quantization levels.",
       "correctAnswer": 1,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-069",
@@ -1314,7 +1450,9 @@
       "explanation": "ECL avoids transistor saturation and is very fast.",
       "correctAnswer": 0,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-070",
@@ -1333,7 +1471,9 @@
       "explanation": "CMOS has very low static power in steady state.",
       "correctAnswer": 1,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-071",
@@ -1352,7 +1492,9 @@
       "explanation": "TTL = transistor-transistor logic, historically bipolar.",
       "correctAnswer": 0,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-072",
@@ -1371,7 +1513,9 @@
       "explanation": "Noise margin indicates tolerated noise voltage.",
       "correctAnswer": 1,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-073",
@@ -1390,7 +1534,9 @@
       "explanation": "XOR is 1 when inputs differ.",
       "correctAnswer": 2,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-074",
@@ -1409,7 +1555,9 @@
       "explanation": "NAND = (AB)'.",
       "correctAnswer": 1,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-075",
@@ -1428,7 +1576,9 @@
       "explanation": "NOR = (A+B)'.",
       "correctAnswer": 0,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-076",
@@ -1447,7 +1597,9 @@
       "explanation": "2^2 = 4.",
       "correctAnswer": 1,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-077",
@@ -1466,7 +1618,9 @@
       "explanation": "There are 2^4 = 16 combinations.",
       "correctAnswer": 2,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-078",
@@ -1485,7 +1639,9 @@
       "explanation": "Synchronous stages share the clock.",
       "correctAnswer": 1,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-079",
@@ -1504,7 +1660,9 @@
       "explanation": "Each stage is triggered by a preceding stage.",
       "correctAnswer": 1,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-080",
@@ -1523,7 +1681,9 @@
       "explanation": "A MUX selects one input.",
       "correctAnswer": 1,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-081",
@@ -1542,7 +1702,9 @@
       "explanation": "A DEMUX routes one input.",
       "correctAnswer": 1,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     },
     {
       "id": "dl-gen-082",
@@ -1561,7 +1723,9 @@
       "explanation": "Sequential circuits have memory/state.",
       "correctAnswer": 1,
       "type": "GENERATED",
-      "answerSource": "generated"
+      "answerSource": "generated",
+      "exam": "Practice",
+      "paper": "Digital Logic — Generated Practice Bank"
     }
   ],
   "syllabus": [
@@ -1573,5 +1737,6 @@
     "Sequential circuits: SR, JK, D, T; registers; counters; irregular counters; state tables/diagrams/design",
     "ADC/DAC; TTL, ECL, MOS, CMOS logic families"
   ],
-  "version": "2.0"
+  "version": "2.0",
+  "paper": "Digital Logic — Generated Practice Bank"
 }
