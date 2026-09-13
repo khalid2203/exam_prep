@@ -23,7 +23,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -34,7 +34,7 @@
         "Operating systems for computers",
         "Entertainment systems in airplanes",
         "Engine control in cars",
-        "Weather forecasting systems STET Exam 2025 Paper 03/11/2025 9:00 AM - 11:30 AM ds for_____ Ans"
+        "Weather forecasting systems"
       ],
       "topic": "Operating Systems",
       "source": "bihar-stet-class-11-12-computer-science-official-q-9b7c4a_copy(1).pdf",
@@ -42,7 +42,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -61,7 +61,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -72,15 +72,15 @@
         "Polymorphism",
         "Information hiding",
         "Encapsulation",
-        "Abstraction C protocols are commonly used in: Ans"
+        "Abstraction C protocols are commonly used in:"
       ],
       "topic": "Computer Networks",
       "source": "bihar-stet-class-11-12-computer-science-official-q-9b7c4a_copy(1).pdf",
-      "correctAnswer": 0,
-      "answerSource": "model_derived_provisional",
+      "correctAnswer": 3,
+      "answerSource": "verified_audit",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -99,7 +99,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -110,15 +110,15 @@
         "Scripting",
         "Cross attack",
         "Man-in-the-middle",
-        "Radiant e ability of a class to provide different implementations of a method based on the input parameters? Ans"
+        "Radiant"
       ],
       "topic": "Unclassified",
       "source": "bihar-stet-class-11-12-computer-science-official-q-9b7c4a_copy(1).pdf",
-      "correctAnswer": 0,
-      "answerSource": "model_derived_provisional",
+      "correctAnswer": 2,
+      "answerSource": "verified_audit",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -137,7 +137,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -148,15 +148,15 @@
         "32 bits",
         "64 bits",
         "128 bits",
-        "256 bits atform where individuals or groups regularly publish written content, typically in a reverse chronological order is known as : Ans"
+        "256 bits"
       ],
       "topic": "Computer Networks",
       "source": "bihar-stet-class-11-12-computer-science-official-q-9b7c4a_copy(1).pdf",
-      "correctAnswer": 1,
-      "answerSource": "model_derived_provisional",
+      "correctAnswer": 2,
+      "answerSource": "verified_audit",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -175,7 +175,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -186,15 +186,15 @@
         "Steve Jobs",
         "Bill Simpson",
         "Kevin Aston",
-        "None of these anguages are commonly supported by Dreamweaver for web development? Ans"
+        "None of these"
       ],
       "topic": "Unclassified",
       "source": "bihar-stet-class-11-12-computer-science-official-q-9b7c4a_copy(1).pdf",
-      "correctAnswer": 1,
-      "answerSource": "model_derived_provisional",
+      "correctAnswer": 2,
+      "answerSource": "verified_audit",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -213,7 +213,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -224,7 +224,7 @@
         "Abstract classes can have multiple inheritance, unlike interfaces",
         "Interfaces can have constructors, while abstract classes cannot",
         "Abstract classes can provide default implementations of methods",
-        "Interfaces allow for private access modifiers, unlike abstract classes networking devices is used to regenerate and transmit the weakened signal ahead ? Ans"
+        "Interfaces allow for private access modifiers, unlike abstract classes"
       ],
       "topic": "Computer Networks",
       "source": "bihar-stet-class-11-12-computer-science-official-q-9b7c4a_copy(1).pdf",
@@ -232,7 +232,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -251,7 +251,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -262,15 +262,15 @@
         "SELECT MAX (Score) FROM Scores;",
         "SELECT MIN (Score) FROM Scores;",
         "SELECT SUM (Score) FROM Scores;",
-        "SELECT AVG (Score) FROM Scores; pe is used to implement Queue data structure in Python. Ans"
+        "SELECT AVG (Score) FROM Scores;"
       ],
       "topic": "Data Structures",
       "source": "bihar-stet-class-11-12-computer-science-official-q-9b7c4a_copy(1).pdf",
-      "correctAnswer": 3,
-      "answerSource": "model_derived_provisional",
+      "correctAnswer": 1,
+      "answerSource": "verified_audit",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -289,7 +289,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -300,15 +300,15 @@
         "Risk assessment",
         "Security",
         "Risk Management",
-        "None of the above attributes is not a valid attribute of the tag in HTML ? Ans"
+        "None of the above"
       ],
       "topic": "Operating Systems",
       "source": "bihar-stet-class-11-12-computer-science-official-q-9b7c4a_copy(1).pdf",
-      "correctAnswer": 3,
-      "answerSource": "model_derived_provisional",
+      "correctAnswer": 2,
+      "answerSource": "verified_audit",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -327,7 +327,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -338,7 +338,7 @@
         "111111",
         "101111",
         "111010",
-        "101010 DFA exist is a________ Ans"
+        "101010"
       ],
       "topic": "Digital Logic",
       "source": "bihar-stet-class-11-12-computer-science-official-q-9b7c4a_copy(1).pdf",
@@ -346,7 +346,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -365,7 +365,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -376,7 +376,7 @@
         "binary",
         "electro-chemical",
         "recursive",
-        "semantic condition that occurs during program execution that disrupts the normal flow of instructions? Ans"
+        "An event that occurs during execution of a program that disrupts instructions flow"
       ],
       "topic": "Digital Logic",
       "source": "bihar-stet-class-11-12-computer-science-official-q-9b7c4a_copy(1).pdf",
@@ -384,7 +384,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -403,7 +403,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -414,15 +414,15 @@
         "Internet Explorer",
         "Mosaic",
         "Google Chrome",
-        "Opera wing search algorithm requires least memory? Ans"
+        "Opera"
       ],
       "topic": "Unclassified",
       "source": "bihar-stet-class-11-12-computer-science-official-q-9b7c4a_copy(1).pdf",
-      "correctAnswer": 2,
-      "answerSource": "model_derived_provisional",
+      "correctAnswer": 1,
+      "answerSource": "verified_audit",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -441,7 +441,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -452,15 +452,15 @@
         "Switching between user and kernel modes",
         "Switching between processes to allow multitasking",
         "Switching between different file systems",
-        "Switching between different operating systems erating voltage range for TTL logic family? Ans"
+        "Switching between different operating systems"
       ],
       "topic": "Operating Systems",
       "source": "bihar-stet-class-11-12-computer-science-official-q-9b7c4a_copy(1).pdf",
-      "correctAnswer": 2,
-      "answerSource": "model_derived_provisional",
+      "correctAnswer": 1,
+      "answerSource": "verified_audit",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -479,7 +479,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -490,7 +490,7 @@
         "imposed structure",
         "knowledge engineering assistance",
         "rapid prototyping",
-        "all of the mentioned ts given below and then choose the correct output from the given options : def Change (N) : N=N+10 print (N , end= '$$ ' ) N=15 Change (N) print (N) Ans"
+        "all of the mentioned"
       ],
       "topic": "Unclassified",
       "source": "bihar-stet-class-11-12-computer-science-official-q-9b7c4a_copy(1).pdf",
@@ -498,7 +498,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -517,7 +517,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -528,7 +528,7 @@
         "[ ' Paraly ' , 'm' , 'pic Ga', 'm', ' es']",
         "('Paraly', 'm', 'pic Games')",
         "('Paraly', 'pic Ga', 'es')",
-        "[ 'Paraly', 'pic Ga', 'es'] xt move based on Ans"
+        "[ 'Paraly', 'pic Ga', 'es'] xt move based on"
       ],
       "topic": "Unclassified",
       "source": "bihar-stet-class-11-12-computer-science-official-q-9b7c4a_copy(1).pdf",
@@ -536,7 +536,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -555,7 +555,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -566,15 +566,15 @@
         "Its solution can be verified in polynomial time",
         "It can be solved using a non-deterministic algorithm",
         "It is not solvable",
-        "It has exponential complexity ed to send e-mails is _________. Ans"
+        "It has exponential complexity ed to send e-mails is _________."
       ],
       "topic": "Unclassified",
       "source": "bihar-stet-class-11-12-computer-science-official-q-9b7c4a_copy(1).pdf",
-      "correctAnswer": 2,
-      "answerSource": "model_derived_provisional",
+      "correctAnswer": 0,
+      "answerSource": "verified_audit",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -593,7 +593,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -604,7 +604,7 @@
         "Private key",
         "Symetric",
         "Asymetric",
-        "None of the above rocess model focuses on fixing defects as they are identified? Ans"
+        "None of the above"
       ],
       "topic": "Unclassified",
       "source": "bihar-stet-class-11-12-computer-science-official-q-9b7c4a_copy(1).pdf",
@@ -612,7 +612,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -631,7 +631,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -642,7 +642,7 @@
         "Image acquisition",
         "Segmentation",
         "Image enhancement",
-        "Image restoration form of TCP in TCP/IP ? Ans"
+        "Image restoration"
       ],
       "topic": "Operating Systems",
       "source": "bihar-stet-class-11-12-computer-science-official-q-9b7c4a_copy(1).pdf",
@@ -650,7 +650,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -669,7 +669,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -680,7 +680,7 @@
         "Store the contents of the file",
         "Store the file's name and location",
         "Store the attributes and metadata of the file",
-        "Store the directory structure of the file system for: Ans"
+        "Store the directory structure of the file system for:"
       ],
       "topic": "Unclassified",
       "source": "bihar-stet-class-11-12-computer-science-official-q-9b7c4a_copy(1).pdf",
@@ -688,7 +688,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -707,7 +707,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -718,7 +718,7 @@
         "Wide Reach",
         "Shorter Cycle Time",
         "Reduced Cost",
-        "All of the above he ability to query the data and insert, alter, and delete tuples. Ans"
+        "All of the above"
       ],
       "topic": "Unclassified",
       "source": "bihar-stet-class-11-12-computer-science-official-q-9b7c4a_copy(1).pdf",
@@ -726,7 +726,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -745,7 +745,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -756,15 +756,15 @@
         "The name of the method",
         "The return type of the method",
         "The parameters of the method",
-        "The combination of method name and parameter types h involves testing individual components or units of code? Ans"
+        "The combination of method name and parameter types"
       ],
       "topic": "Unclassified",
       "source": "bihar-stet-class-11-12-computer-science-official-q-9b7c4a_copy(1).pdf",
-      "correctAnswer": 2,
-      "answerSource": "model_derived_provisional",
+      "correctAnswer": 3,
+      "answerSource": "verified_audit",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -783,7 +783,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -794,7 +794,7 @@
         "Data Redundancy",
         "Data Inconsistency",
         "Data dependence",
-        "Storing Space f ARP (Address Resolution Protocol)? Ans"
+        "Storing Space"
       ],
       "topic": "Computer Networks",
       "source": "bihar-stet-class-11-12-computer-science-official-q-9b7c4a_copy(1).pdf",
@@ -802,7 +802,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -821,7 +821,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -832,15 +832,15 @@
         "A NoSQL database is a database that does not use the relational model.",
         "A No SQL database is a database that is not managed by a DBMS.",
         "A No SQL database is a database that is not stored on a physical device.",
-        "All of the above. bing Algorithm terminate? Ans"
+        "All of the above"
       ],
       "topic": "DBMS",
       "source": "bihar-stet-class-11-12-computer-science-official-q-9b7c4a_copy(1).pdf",
-      "correctAnswer": 2,
-      "answerSource": "model_derived_provisional",
+      "correctAnswer": 0,
+      "answerSource": "verified_audit",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -859,7 +859,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -870,7 +870,7 @@
         "Generation",
         "GPRS",
         "Grid",
-        "Google e RFID Module? Ans"
+        "Google"
       ],
       "topic": "Unclassified",
       "source": "bihar-stet-class-11-12-computer-science-official-q-9b7c4a_copy(1).pdf",
@@ -878,7 +878,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -897,7 +897,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -908,15 +908,15 @@
         "Clustering",
         "Software agents",
         "Synchronization techniques",
-        "Cluster, Software agent, and Synchronization techniques of the Boolean expression F(A, B, C) = Π(1, 2, 4, 6)? Ans"
+        "Cluster, Software agent, and Synchronization techniques"
       ],
       "topic": "Digital Logic",
       "source": "bihar-stet-class-11-12-computer-science-official-q-9b7c4a_copy(1).pdf",
-      "correctAnswer": 0,
-      "answerSource": "model_derived_provisional",
+      "correctAnswer": 3,
+      "answerSource": "verified_audit",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -935,7 +935,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -946,15 +946,15 @@
         "64",
         "32",
         "128",
-        "187 f staffing level estimation in software project management? Ans"
+        "187"
       ],
       "topic": "Unclassified",
       "source": "bihar-stet-class-11-12-computer-science-official-q-9b7c4a_copy(1).pdf",
-      "correctAnswer": 2,
-      "answerSource": "model_derived_provisional",
+      "correctAnswer": 0,
+      "answerSource": "verified_audit",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -973,7 +973,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -984,15 +984,15 @@
         "global",
         "Break",
         "def",
-        "with lexity of the Divide and Conquer algorithm for finding the maximum and minimum elements in an array of size \"n\"? Ans"
+        "with"
       ],
       "topic": "Data Structures",
       "source": "bihar-stet-class-11-12-computer-science-official-q-9b7c4a_copy(1).pdf",
-      "correctAnswer": 0,
-      "answerSource": "model_derived_provisional",
+      "correctAnswer": 1,
+      "answerSource": "verified_audit",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -1011,7 +1011,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -1022,15 +1022,15 @@
         "Optimal substructure",
         "Greedy choice property",
         "Divide and Conquer",
-        "Linear programming wing are the limiting factors of IoT? Ans"
+        "Linear programming"
       ],
       "topic": "Digital Logic",
       "source": "bihar-stet-class-11-12-computer-science-official-q-9b7c4a_copy(1).pdf",
-      "correctAnswer": 3,
-      "answerSource": "model_derived_provisional",
+      "correctAnswer": 0,
+      "answerSource": "verified_audit",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -1049,7 +1049,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -1060,15 +1060,15 @@
         "In kilobytes (KB)",
         "In megahertz (MHz)",
         "In bits",
-        "In address lines e transaction identifier in a Modbus TCP packet is? Ans"
+        "In address lines"
       ],
       "topic": "DBMS",
       "source": "bihar-stet-class-11-12-computer-science-official-q-9b7c4a_copy(1).pdf",
-      "correctAnswer": 1,
-      "answerSource": "model_derived_provisional",
+      "correctAnswer": 2,
+      "answerSource": "verified_audit",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -1087,7 +1087,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -1098,15 +1098,15 @@
         "Concatenation",
         "Intersection",
         "Union",
-        "Repeated Concatenation. is NOT a network topology? Ans"
+        "Repeated Concatenation"
       ],
       "topic": "Computer Networks",
       "source": "bihar-stet-class-11-12-computer-science-official-q-9b7c4a_copy(1).pdf",
-      "correctAnswer": 2,
-      "answerSource": "model_derived_provisional",
+      "correctAnswer": 1,
+      "answerSource": "verified_audit",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -1125,7 +1125,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -1136,15 +1136,15 @@
         "Page table",
         "File allocation table",
         "Memory map",
-        "Memory management unit present in web development? Ans"
+        "Memory management unit"
       ],
       "topic": "Data Structures",
       "source": "bihar-stet-class-11-12-computer-science-official-q-9b7c4a_copy(1).pdf",
-      "correctAnswer": 3,
-      "answerSource": "model_derived_provisional",
+      "correctAnswer": 2,
+      "answerSource": "verified_audit",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -1163,7 +1163,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -1174,7 +1174,7 @@
         "Direct addressing",
         "Immediate addressing",
         "Indirect addressing",
-        "Indexed addressing is the code considered self-complementing? Ans"
+        "Indexed addressing"
       ],
       "topic": "Digital Logic",
       "source": "bihar-stet-class-11-12-computer-science-official-q-9b7c4a_copy(1).pdf",
@@ -1182,7 +1182,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -1201,7 +1201,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -1212,15 +1212,15 @@
         "Industrial Revolution",
         "3rd Industrial Revolution",
         "Industry 4.0",
-        "Manufacturing automation provides the ability to query information from the database and insert tuples into, delete tuples from, and modify tuples in the database? Ans"
+        "Manufacturing automation"
       ],
       "topic": "DBMS",
       "source": "bihar-stet-class-11-12-computer-science-official-q-9b7c4a_copy(1).pdf",
-      "correctAnswer": 0,
-      "answerSource": "model_derived_provisional",
+      "correctAnswer": 2,
+      "answerSource": "verified_audit",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -1239,7 +1239,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -1250,7 +1250,7 @@
         "n == 0",
         "n == 1",
         "n < 0",
-        "n > 0 rations in an operating system include: Ans"
+        "n >"
       ],
       "topic": "Operating Systems",
       "source": "bihar-stet-class-11-12-computer-science-official-q-9b7c4a_copy(1).pdf",
@@ -1258,7 +1258,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -1277,7 +1277,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -1288,15 +1288,15 @@
         "Tape-recorder",
         "Television",
         "Radio",
-        "All of these 2 ng units from a population to estimate characteristics of the population is called Ans"
+        "All of these"
       ],
       "topic": "Unclassified",
       "source": "bihar-stet-class-11-12-computer-science-official-q-9b7c4a_copy(1).pdf",
-      "correctAnswer": 3,
-      "answerSource": "model_derived_provisional",
+      "correctAnswer": 1,
+      "answerSource": "verified_audit",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -1311,11 +1311,11 @@
       ],
       "topic": "Unclassified",
       "source": "bihar-stet-class-11-12-computer-science-official-q-9b7c4a_copy(1).pdf",
-      "correctAnswer": 2,
-      "answerSource": "model_derived_provisional",
+      "correctAnswer": 1,
+      "answerSource": "verified_audit",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -1326,7 +1326,7 @@
         "Explore",
         "Engage",
         "Explain",
-        "Elaborate 5 he concept of Follow Nature. The meaning of this maxim is Ans"
+        "Elaborate"
       ],
       "topic": "Unclassified",
       "source": "bihar-stet-class-11-12-computer-science-official-q-9b7c4a_copy(1).pdf",
@@ -1334,7 +1334,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -1353,7 +1353,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -1364,7 +1364,7 @@
         "the spirit of opposing the rules of the school regularly",
         "the students will do anything they want",
         "one's own growth freely and the recognition of others freedom to grow similarly",
-        "teachers are free to teach as they think 8 el is Ans"
+        "teachers are free to teach as they think"
       ],
       "topic": "Unclassified",
       "source": "bihar-stet-class-11-12-computer-science-official-q-9b7c4a_copy(1).pdf",
@@ -1372,7 +1372,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -1391,7 +1391,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -1402,7 +1402,7 @@
         "demonstration method",
         "lecture method",
         "story telling method",
-        "problem solving method 1 wing statements about progressive education explains-Education is life itself? Ans"
+        "problem solving method 1 wing statements about progressive education explains-Education is life itself?"
       ],
       "topic": "Unclassified",
       "source": "bihar-stet-class-11-12-computer-science-official-q-9b7c4a_copy(1).pdf",
@@ -1410,7 +1410,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -1429,7 +1429,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -1440,7 +1440,7 @@
         "Raising intellectual standard of the students",
         "Improving physical standard of students",
         "Help all round development of students",
-        "Inculcating value in students. 4 asses have a lot of alternate conceptions in many topics like living, non-living, water cycle, plants etc. The sources of these alternate conceptions can be I. family and community. II. textbooks and other books. III. Leathers IV. stories and poems. Select the correct option given below Ans"
+        "Inculcating value in students."
       ],
       "topic": "Unclassified",
       "source": "bihar-stet-class-11-12-computer-science-official-q-9b7c4a_copy(1).pdf",
@@ -1448,7 +1448,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -1467,7 +1467,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -1478,15 +1478,15 @@
         "fluid intelligence",
         "crystallized intelligence",
         "convergent thinking",
-        "divergent thinking 7 wing is not a limitation of the preoperational thought? Ans"
+        "divergent thinking"
       ],
       "topic": "Unclassified",
       "source": "bihar-stet-class-11-12-computer-science-official-q-9b7c4a_copy(1).pdf",
-      "correctAnswer": 2,
-      "answerSource": "model_derived_provisional",
+      "correctAnswer": 3,
+      "answerSource": "verified_audit",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -1505,7 +1505,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -1516,15 +1516,15 @@
         "praised",
         "given reward",
         "recognised",
-        "all of these 0 l make a prediction of what will happen in the story. Then the students must make a list of the main events in the story. Lastly, I will write a review of the story. What skills are being used? Ans"
+        "all of these 0 l make a prediction of what will happen in the story. Then the students must make a list of the main events in the story. Lastly, I will write a review of the story. What skills are being used?"
       ],
       "topic": "Unclassified",
       "source": "bihar-stet-class-11-12-computer-science-official-q-9b7c4a_copy(1).pdf",
-      "correctAnswer": 2,
-      "answerSource": "model_derived_provisional",
+      "correctAnswer": 3,
+      "answerSource": "verified_audit",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -1543,7 +1543,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -1554,15 +1554,15 @@
         "Learning process",
         "Teaching method",
         "Student characteristics",
-        "All of these 3 is the objective of a teacher? Ans"
+        "All of these 3 is the objective of a teacher?"
       ],
       "topic": "Operating Systems",
       "source": "bihar-stet-class-11-12-computer-science-official-q-9b7c4a_copy(1).pdf",
-      "correctAnswer": 1,
-      "answerSource": "model_derived_provisional",
+      "correctAnswer": 3,
+      "answerSource": "verified_audit",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -1581,7 +1581,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -1592,7 +1592,7 @@
         "Increase in no. of books",
         "Decrease in no. of books",
         "Increases in students enrolment",
-        "Decrease in dropout 6 s of boys and girls. Which method would you adopt to improve co-operation between them? Ans"
+        "Decrease in dropout 6 s of boys and girls. Which method would you adopt to improve co-operation between them?"
       ],
       "topic": "Unclassified",
       "source": "bihar-stet-class-11-12-computer-science-official-q-9b7c4a_copy(1).pdf",
@@ -1600,7 +1600,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -1619,7 +1619,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -1630,15 +1630,15 @@
         "Yes",
         "no",
         "Both yes and no from different perspectives",
-        "Can't say anything. 9 ld be Ans"
+        "Can't say anything."
       ],
       "topic": "Unclassified",
       "source": "bihar-stet-class-11-12-computer-science-official-q-9b7c4a_copy(1).pdf",
-      "correctAnswer": 3,
-      "answerSource": "model_derived_provisional",
+      "correctAnswer": 0,
+      "answerSource": "verified_audit",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -1657,7 +1657,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -1668,15 +1668,15 @@
         "UHSDE",
         "VHSDE",
         "UHSDC",
-        "UHQFC 2 market condition where supply exceeds demand? Ans"
+        "UHQFC 2 market condition where supply exceeds demand?"
       ],
       "topic": "Unclassified",
       "source": "bihar-stet-class-11-12-computer-science-official-q-9b7c4a_copy(1).pdf",
-      "correctAnswer": 1,
-      "answerSource": "model_derived_provisional",
+      "correctAnswer": 0,
+      "answerSource": "verified_audit",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -1695,7 +1695,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -1706,15 +1706,15 @@
         "Insecticides",
         "Pesticides",
         "Fungicides",
-        "All of these 5 ing is actually work. Below are some names of famous people, Pick the name whose work is actually playing. Ans"
+        "All of these"
       ],
       "topic": "Unclassified",
       "source": "bihar-stet-class-11-12-computer-science-official-q-9b7c4a_copy(1).pdf",
-      "correctAnswer": 1,
-      "answerSource": "model_derived_provisional",
+      "correctAnswer": 2,
+      "answerSource": "verified_audit",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -1733,7 +1733,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -1744,15 +1744,15 @@
         "150,",
         "155",
         "160",
-        "176 8 er by 2. She then divides the answer by 2. This is the same as dividing the original number by: Ans"
+        "176"
       ],
       "topic": "Unclassified",
       "source": "bihar-stet-class-11-12-computer-science-official-q-9b7c4a_copy(1).pdf",
-      "correctAnswer": 0,
-      "answerSource": "model_derived_provisional",
+      "correctAnswer": 1,
+      "answerSource": "verified_audit",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -1771,7 +1771,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -1782,15 +1782,15 @@
         "15",
         "45",
         "50",
-        "55 1 es towards East, took a right turn and walked 20 metres, again took a right turn and walked 30 metres. How far was he from the starting point? Ans"
+        "55 1 es towards East, took a right turn and walked 20 metres, again took a right turn and walked 30 metres. How far was he from the starting point?"
       ],
       "topic": "Unclassified",
       "source": "bihar-stet-class-11-12-computer-science-official-q-9b7c4a_copy(1).pdf",
-      "correctAnswer": 3,
-      "answerSource": "model_derived_provisional",
+      "correctAnswer": 1,
+      "answerSource": "verified_audit",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -1809,7 +1809,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -1820,15 +1820,15 @@
         "8819",
         "6080",
         "9011",
-        "2019 4 ow many pin code zones? Ans"
+        "2019 4 ow many pin code zones?"
       ],
       "topic": "Unclassified",
       "source": "bihar-stet-class-11-12-computer-science-official-q-9b7c4a_copy(1).pdf",
-      "correctAnswer": 2,
-      "answerSource": "model_derived_provisional",
+      "correctAnswer": 1,
+      "answerSource": "verified_audit",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -1838,7 +1838,7 @@
       "options": [
         "Football",
         "capture the flag",
-        "Uno<br",
+        "Uno",
         "Frisbee"
       ],
       "topic": "Unclassified",
@@ -1847,7 +1847,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -1858,15 +1858,15 @@
         "Andhra Pradesh",
         "Odisha",
         "Telangana",
-        "Tamil Nadu 7 eir food with the help of……….. Ans"
+        "Tamil Nadu 7 eir food with the help of……….."
       ],
       "topic": "Unclassified",
       "source": "bihar-stet-class-11-12-computer-science-official-q-9b7c4a_copy(1).pdf",
-      "correctAnswer": 2,
-      "answerSource": "model_derived_provisional",
+      "correctAnswer": 1,
+      "answerSource": "verified_audit",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -1885,7 +1885,7 @@
       "answerSource": "model_derived_provisional",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     },
     {
@@ -1896,15 +1896,15 @@
         "13",
         "14",
         "17",
-        "18 \" 0 types of natural disasters has no definite beginning and end ? Ans"
+        "18 \" 0 types of natural disasters has no definite beginning and end ?"
       ],
       "topic": "Unclassified",
       "source": "bihar-stet-class-11-12-computer-science-official-q-9b7c4a_copy(1).pdf",
-      "correctAnswer": 3,
-      "answerSource": "model_derived_provisional",
+      "correctAnswer": 0,
+      "answerSource": "verified_audit",
       "type": "PYQ",
       "paper": "Bihar STET 2025 — Computer Science — 03 Nov 2025 — Shift 1",
-      "exam": "STET",
+      "exam": "Bihar STET 2025",
       "subject": "Computer Science"
     }
   ],
